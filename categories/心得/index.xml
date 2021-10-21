@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>心得 on Welcome~超級猴子設計實驗室</title>
+    <link>https://supermonkeydesign.github.io/categories/%E5%BF%83%E5%BE%97/</link>
+    <description>Recent content in 心得 on Welcome~超級猴子設計實驗室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 21 Oct 2021 23:00:00 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/categories/%E5%BF%83%E5%BE%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>超級猴子的第二篇文章</title>
+      <link>https://supermonkeydesign.github.io/blog/second-post/</link>
+      <pubDate>Thu, 21 Oct 2021 23:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/second-post/</guid>
+      <description>這裡是第二篇文章</description>
+    </item>
+    
+  </channel>
+</rss>
