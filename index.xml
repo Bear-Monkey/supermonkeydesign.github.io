@@ -13,7 +13,7 @@
       <pubDate>Thu, 21 Oct 2021 23:00:00 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/blog/second-post/</guid>
-      <description>這裡是第二篇文章</description>
+      <description>這裡是第三篇文章</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Wed, 20 Oct 2021 17:00:00 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/blog/test3-2/</guid>
-      <description>1.Hugo程式碼設定 第1-24行程式，且務必置頂，網站才能顯示該文章，複製post-13文章設定來修改 2 文章狀態draft 第4行程式，false(完稿) / true(草稿)Hugo語言不會顯示草稿文章， 3.圖片位置image第7行程式，圖片檔案夾 static &amp;gt; post &amp;gt; 選擇圖片（必填副檔名） 4.</description>
+      <description>1.Hugo程式碼設定 第1-24行程式，且務必置頂，網站才能顯示該文章，第3行 +6改+8台灣時區，程式碼複製post-13來修改 2 文章狀態draft 第4行程式，false(完稿) / true(草稿)Hugo語言不會顯示草稿文章， 3.圖片位置image第7行程式，圖片檔案夾 static &amp;gt; post &amp;gt; 選擇圖片（必填副檔名） 4.</description>
     </item>
     
     <item>

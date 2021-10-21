@@ -8,20 +8,29 @@
     <language>zh-tw</language>
     <lastBuildDate>Thu, 21 Oct 2021 23:00:00 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Good</title>
-      <link>https://supermonkeydesign.github.io/tags/good/</link>
+      <title>Hugo</title>
+      <link>https://supermonkeydesign.github.io/tags/hugo/</link>
       <pubDate>Thu, 21 Oct 2021 23:00:00 +0800</pubDate>
       
-      <guid>https://supermonkeydesign.github.io/tags/good/</guid>
+      <guid>https://supermonkeydesign.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Shiba</title>
-      <link>https://supermonkeydesign.github.io/tags/shiba/</link>
+      <title>Make</title>
+      <link>https://supermonkeydesign.github.io/tags/make/</link>
       <pubDate>Thu, 21 Oct 2021 23:00:00 +0800</pubDate>
       
-      <guid>https://supermonkeydesign.github.io/tags/shiba/</guid>
+      <guid>https://supermonkeydesign.github.io/tags/make/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://supermonkeydesign.github.io/tags/web/</link>
+      <pubDate>Thu, 21 Oct 2021 23:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/tags/web/</guid>
       <description></description>
     </item>
     
