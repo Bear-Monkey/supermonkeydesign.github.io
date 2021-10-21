@@ -8,7 +8,7 @@
     <language>zh-tw</language>
     <lastBuildDate>Thu, 21 Oct 2021 23:00:00 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>超級猴子的第二篇文章</title>
+      <title>第四章 單元一 發佈個人網站</title>
       <link>https://supermonkeydesign.github.io/blog/second-post/</link>
       <pubDate>Thu, 21 Oct 2021 23:00:00 +0800</pubDate>
       
@@ -22,7 +22,7 @@
       <pubDate>Wed, 20 Oct 2021 17:00:00 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/blog/test3-2/</guid>
-      <description>1.Hugo 程式碼 輸入第1～24行程式碼，且務必置頂，才能於網站顯示該文章 2 文章狀態 Hugo 語言不會顯示草稿文章，程式碼第4行 「draft:」false(完稿) / true(草稿) 3.</description>
+      <description>1.Hugo程式碼設定 第1-24行程式，且務必置頂，網站才能顯示該文章，複製post-13文章設定來修改 2 文章狀態draft 第4行程式，false(完稿) / true(草稿)Hugo語言不會顯示草稿文章， 3.圖片位置image第7行程式，圖片檔案夾 static &amp;gt; post &amp;gt; 選擇圖片（必填副檔名） 4.</description>
     </item>
     
     <item>

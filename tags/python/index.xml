@@ -6,28 +6,7 @@
     <description>Recent content in Python on Welcome~超級猴子設計實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 20 Oct 2021 17:00:00 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>第三章 單元二 Markdowm 分類文章，為文章加上標籤</title>
-      <link>https://supermonkeydesign.github.io/blog/test3-2/</link>
-      <pubDate>Wed, 20 Oct 2021 17:00:00 +0800</pubDate>
-      
-      <guid>https://supermonkeydesign.github.io/blog/test3-2/</guid>
-      <description>1.Hugo 程式碼 輸入第1～24行程式碼，且務必置頂，才能於網站顯示該文章 2 文章狀態 Hugo 語言不會顯示草稿文章，程式碼第4行 「draft:」false(完稿) / true(草稿) 3.</description>
-    </item>
-    
-    <item>
-      <title>第三章 單元一 Markdowm 語法介紹</title>
-      <link>https://supermonkeydesign.github.io/blog/test3-1/</link>
-      <pubDate>Wed, 20 Oct 2021 15:30:00 +0800</pubDate>
-      
-      <guid>https://supermonkeydesign.github.io/blog/test3-1/</guid>
-      <description>第3-1章 : Markdown 語法介紹 1.內文 換行空一行，再接下行 例：
-我是超級猴子，超級猴子愛學習
-超級猴子愛學習，我是超級猴子
-2.標題 文字前輸入「 # 」+「空格」+「文字」 支援大小：# 一級標題 ～ ###### 六級標題</description>
-    </item>
-    
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To Use Checklists To Improve Your UX</title>
       <link>https://supermonkeydesign.github.io/blog/post-13/</link>
