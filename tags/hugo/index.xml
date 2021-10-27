@@ -13,16 +13,7 @@
       <pubDate>Wed, 27 Oct 2021 12:00:00 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/blog/test4-1/</guid>
-      <description>第四章 網站要公開了～上傳吧！ 1.hugo產生個人網站程式碼，開啟終端機輸入：hugo，看到圖表即表示成功 2.回到桌面檔檔案夾內出現新檔案夾：public，將內部檔案移至，文件中的Git檔案夾中</description>
-    </item>
-    
-    <item>
-      <title>第四章 單元一 發佈個人網站</title>
-      <link>https://supermonkeydesign.github.io/blog/second-post/</link>
-      <pubDate>Thu, 21 Oct 2021 23:00:00 +0800</pubDate>
-      
-      <guid>https://supermonkeydesign.github.io/blog/second-post/</guid>
-      <description>這裡是第四篇文章</description>
+      <description>第四章 網站要公開了～上傳吧！ 1.hugo產生個人網站程式碼開啟終端機輸入：hugo，看到圖表即表示成功 2.本機public覆蓋文件public檔案 回到桌面檔檔案夾內出現新檔案夾：public，將內部檔案移至，蓋掉&amp;gt;文件&amp;gt;Github.io檔案夾資料 3.開啟Github Desktop 確認更新檔案 &amp;gt; commit &amp;gt; Fetch origin 4.</description>
     </item>
     
   </channel>
