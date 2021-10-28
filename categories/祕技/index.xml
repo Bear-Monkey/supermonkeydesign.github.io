@@ -8,20 +8,20 @@
     <language>zh-tw</language>
     <lastBuildDate>Wed, 20 Oct 2021 17:00:00 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/categories/%E7%A5%95%E6%8A%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>第三章 單元二 Markdowm 分類文章，為文章加上標籤</title>
-      <link>https://supermonkeydesign.github.io/blog/test3-2/</link>
+      <title>第三章 單元2 - Markdowm 分類文章，為文章加上標籤</title>
+      <link>https://supermonkeydesign.github.io/blog/post3-2/</link>
       <pubDate>Wed, 20 Oct 2021 17:00:00 +0800</pubDate>
       
-      <guid>https://supermonkeydesign.github.io/blog/test3-2/</guid>
+      <guid>https://supermonkeydesign.github.io/blog/post3-2/</guid>
       <description>1.Hugo程式碼設定 第1-24行程式，且務必置頂，網站才能顯示該文章，第3行 +6改+8台灣時區，程式碼複製post-13來修改 2 文章狀態draft 第4行程式，false(完稿) / true(草稿)Hugo語言不會顯示草稿文章， 3.圖片位置image第7行程式，圖片檔案夾 static &amp;gt; post &amp;gt; 選擇圖片（必填副檔名） 4.</description>
     </item>
     
     <item>
-      <title>第三章 單元一 Markdowm 語法介紹</title>
-      <link>https://supermonkeydesign.github.io/blog/test3-1/</link>
+      <title>第三章 單元1 - Markdowm 語法介紹</title>
+      <link>https://supermonkeydesign.github.io/blog/post3-1/</link>
       <pubDate>Wed, 20 Oct 2021 15:30:00 +0800</pubDate>
       
-      <guid>https://supermonkeydesign.github.io/blog/test3-1/</guid>
+      <guid>https://supermonkeydesign.github.io/blog/post3-1/</guid>
       <description>第3-1章 : Markdown 語法介紹 1.內文 換行空一行，再接下行 例：
 我是超級猴子，超級猴子愛學習
 超級猴子愛學習，我是超級猴子

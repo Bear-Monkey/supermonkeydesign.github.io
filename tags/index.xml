@@ -6,38 +6,11 @@
     <description>Recent content in Tags on Welcome~超級猴子設計實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 27 Oct 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Github</title>
-      <link>https://supermonkeydesign.github.io/tags/github/</link>
-      <pubDate>Wed, 27 Oct 2021 12:00:00 +0800</pubDate>
-      
-      <guid>https://supermonkeydesign.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://supermonkeydesign.github.io/tags/hugo/</link>
-      <pubDate>Wed, 27 Oct 2021 12:00:00 +0800</pubDate>
-      
-      <guid>https://supermonkeydesign.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web</title>
-      <link>https://supermonkeydesign.github.io/tags/web/</link>
-      <pubDate>Wed, 27 Oct 2021 12:00:00 +0800</pubDate>
-      
-      <guid>https://supermonkeydesign.github.io/tags/web/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Thu, 28 Oct 2021 10:07:47 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code</title>
       <link>https://supermonkeydesign.github.io/tags/code/</link>
-      <pubDate>Wed, 20 Oct 2021 17:00:00 +0800</pubDate>
+      <pubDate>Thu, 28 Oct 2021 10:07:47 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/tags/code/</guid>
       <description></description>
@@ -46,16 +19,25 @@
     <item>
       <title>Notes</title>
       <link>https://supermonkeydesign.github.io/tags/notes/</link>
-      <pubDate>Wed, 20 Oct 2021 17:00:00 +0800</pubDate>
+      <pubDate>Thu, 28 Oct 2021 10:07:47 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/tags/notes/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Web</title>
+      <link>https://supermonkeydesign.github.io/tags/web/</link>
+      <pubDate>Thu, 28 Oct 2021 10:07:47 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Game</title>
       <link>https://supermonkeydesign.github.io/tags/game/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/tags/game/</guid>
       <description></description>
@@ -64,7 +46,7 @@
     <item>
       <title>HTML</title>
       <link>https://supermonkeydesign.github.io/tags/html/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/tags/html/</guid>
       <description></description>
@@ -73,7 +55,7 @@
     <item>
       <title>New</title>
       <link>https://supermonkeydesign.github.io/tags/new/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/tags/new/</guid>
       <description></description>
@@ -82,7 +64,7 @@
     <item>
       <title>Photos</title>
       <link>https://supermonkeydesign.github.io/tags/photos/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/tags/photos/</guid>
       <description></description>
@@ -91,7 +73,7 @@
     <item>
       <title>Python</title>
       <link>https://supermonkeydesign.github.io/tags/python/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/tags/python/</guid>
       <description></description>

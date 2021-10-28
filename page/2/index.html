@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Markdowm 語法介紹及操作">
+  <meta name="description" content="設計分享">
   <meta name="author" content="Super Monkey">
   <meta name="generator" content="Hugo 0.88.1" />
 
@@ -116,149 +116,223 @@
 </header>
 <!-- /navigation -->
 
+
 <section class="section-sm">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        
-        <a href="/categories/%e7%a5%95%e6%8a%80"
-          class="text-primary">祕技</a>
-        
-        <h2>第三章 單元一 Markdowm 語法介紹</h2>
-        <div class="mb-3 post-meta">
-          <span>By Super Monkey</span>
-          
-          <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>20 October 2021</span>
-          
-        </div>
-        
-        <img src="https://supermonkeydesign.github.io/images/post/post-4.jpg" class="img-fluid w-100 mb-4" alt="第三章 單元一 Markdowm 語法介紹">
-        
-        <div class="content mb-5">
-          <h3 id="第3-1章--markdown-語法介紹">第3-1章 : Markdown 語法介紹</h3>
-<h5 id="1內文-換行空一行再接下行">1.內文 <code>換行空一行，再接下行</code></h5>
-<p><em>例：</em></p>
-<p>我是超級猴子，超級猴子愛學習</p>
-<p>超級猴子愛學習，我是超級猴子</p>
-<h5 id="2標題-文字前輸入--空格文字">2.標題 <code>文字前輸入「 # 」+「空格」+「文字」</code></h5>
-<p><em>支援大小：# 一級標題 ～ ###### 六級標題</em></p>
-<h6 id="六級標題">六級標題</h6>
-<h5 id="五級標題">五級標題</h5>
-<h4 id="四級標題">四級標題</h4>
-<h3 id="三級標題">三級標題</h3>
-<h2 id="二級標題">二級標題</h2>
-<h1 id="一級標題">一級標題</h1>
-<h5 id="3粗體-文字前後各輸入兩個">3.粗體 <code>文字前後各輸入兩個「**」</code></h5>
-<p>例：我是<strong>超級猴子</strong> <strong>超級猴子</strong>愛學習</p>
-<h5 id="4斜體-文字前後各輸入一個">4.斜體 <code>文字前後各輸入一個「*」</code></h5>
-<p>例：我是<em>超級猴子</em> <em>超級猴子</em>愛學習</p>
-<h5 id="5有序序列">5.有序序列</h5>
-<p><code>方法一：順序編號「1.」+「空白鍵」+「文字」</code></p>
-<ol>
-<li>我是超級猴子</li>
-<li>超級猴子愛學習</li>
-</ol>
-<p><code>方法二：編號全部輸入「1.」+「空白鍵」+「文字」</code></p>
-<ol>
-<li>我是超級猴子</li>
-<li>超級猴子愛學習</li>
-</ol>
-<h6 id="有序序列階層-行間換行退縮空白鍵x41空白鍵文字">有序序列階層 <code>行間「換行」+退縮「空白鍵x4」+「1.」+「空白鍵」+「文字」</code></h6>
-<ol>
-<li>
-<p>Hello Monkey</p>
-<ol start="2">
-<li>
-<p>我是超級猴子</p>
-<ol start="3">
-<li>超級猴子愛學習</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-<h5 id="6無序序列-文字前--空白鍵文字">6.無序序列 <code>文字前「 * 」+「空白鍵」+「文字」</code></h5>
-<ul>
-<li>我是超級猴子</li>
-<li>Hello Monkey</li>
-</ul>
-<h6 id="無序序列階層-行間換行退縮空白鍵x4--空白鍵文字">無序序列階層 <code>行間「換行」+退縮「空白鍵x4」+「 * 」+「空白鍵」+「文字」</code></h6>
-<ul>
-<li>Monkey Hello
-<ul>
-<li>Monkey Hello</li>
-</ul>
-</li>
-</ul>
-<h5 id="7引用-文字前輸入---空白鍵">7.引用 <code>文字前輸入「 &gt; 」+ 空白鍵</code></h5>
-<blockquote>
-<p>Hello Monkey</p>
-</blockquote>
-<h5 id="8超連結--文字--連結-">8.超連結 <code>「 [文字] 」+「 (連結) 」</code></h5>
-<p><em>連結外部網站</em>
-<a href="https://github.com/supermonkeydesign"> Super Monkey Design Lab </a></p>
-<p><em>連結內部文章</em>
-<a href="/blog/post-1"> Super Monkey blog </a></p>
-<h5 id="9圖片---輸入內外部連結同超連結作法------">9.圖片 <code>「 () 」輸入內、外部連結，同超連結作法「 ! 」+「 [] 」+「 () 」</code></h5>
-<p><img src="/images/SSS.png" alt=""></p>
-<h5 id="10單行程式碼-左上小引號包住程式碼">10.單行程式碼 <code>左上小引號包住程式碼</code></h5>
-<p>我是超級猴子，超級猴子愛學習 <code>Hello</code></p>
-<h5 id="11多行程式碼-小引號x3換行小引號x3包住程式碼">11.多行程式碼 <code>「小引號x3」+「換行」＋「小引號x3」+「包住程式碼」</code></h5>
-<pre tabindex="0"><code>print(&quot;hello monkey&quot;)
-print(&quot;hello monkey&quot;)
-print(&quot;hello monkey&quot;)
-</code></pre><h6 id="程式碼顏色告訴-markdown-使用-python-語言-小引號x3語言名稱小引號x3包住程式碼"><em>程式碼顏色：告訴 Markdown 使用 python 語言</em> <code>「小引號x3」+「語言名稱」＋「小引號x3」+「包住程式碼」</code></h6>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">print(<span style="color:#e6db74">&#34;hello monkey&#34;</span>)
-print(<span style="color:#e6db74">&#34;hello monkey&#34;</span>)
-print(<span style="color:#e6db74">&#34;hello monkey&#34;</span>)
-</code></pre></div><h5 id="12表格-行--列---標題對齊">12.表格 <code>行「 | 」、列「 - 」、標題對齊「:」</code></h5>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">編號</th>
-<th style="text-align:center">名字</th>
-<th style="text-align:center">備註</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">0</td>
-<td style="text-align:center">阿柴</td>
-<td style="text-align:center">老師</td>
-</tr>
-<tr>
-<td style="text-align:center">1</td>
-<td style="text-align:center">小猴</td>
-<td style="text-align:center">第一名</td>
-</tr>
-<tr>
-<td style="text-align:center">2</td>
-<td style="text-align:center">小熊</td>
-<td style="text-align:center">第二名</td>
-</tr>
-<tr>
-<td style="text-align:center">3</td>
-<td style="text-align:center">小豹</td>
-<td style="text-align:center">第三名</td>
-</tr>
-<tr>
-<td style="text-align:center">4</td>
-<td style="text-align:center">小鹿</td>
-<td style="text-align:center">第四名</td>
-</tr>
-</tbody>
-</table>
-<p><strong><code>Typara 同為撰寫 Markdowm 語法工具。優點：所見即所得，如同文書軟體可於選單列選取標題樣式，缺點：無法直接連結圖片檔案夾。下載：https://typora.io/</code></strong></p>
-
-        </div>
-
+    <div class="row justify-content-center">
+      <div class="col-10 featured-post-slider">
         
         
       </div>
     </div>
   </div>
 </section>
+
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-lg-4 small-post-border">
+        <article class="media">
+          
+          <div class="recent-post-thumb mr-3" style="background-image: url('https://supermonkeydesign.github.io/images/post/post-1.jpg');"></div>
+          
+          <div class="media-body">
+            <div class="mb-3 post-meta">
+              <span>By Super Monkey</span>
+              
+              <span class="border-bottom border-primary px-2 mx-1"></span>
+              <span>28 Oct 2021</span>
+              
+            </div>
+            <a href="https://supermonkeydesign.github.io/blog/post2-1/" class="h5 d-block mb-3">第二章 認識Hugo</a>
+            <a href="https://supermonkeydesign.github.io/blog/post2-1/" class="btn btn-outline-primary">read more</a>
+          </div>
+        </article>
+      </div>
+      
+      <div class="col-lg-4 small-post-border">
+        <article class="media">
+          
+          <div class="recent-post-thumb mr-3" style="background-image: url('https://supermonkeydesign.github.io/images/post/post-2.jpg');"></div>
+          
+          <div class="media-body">
+            <div class="mb-3 post-meta">
+              <span>By Super Monkey</span>
+              
+              <span class="border-bottom border-primary px-2 mx-1"></span>
+              <span>28 Oct 2021</span>
+              
+            </div>
+            <a href="https://supermonkeydesign.github.io/blog/post2-2/" class="h5 d-block mb-3">第二章 認識Hugo</a>
+            <a href="https://supermonkeydesign.github.io/blog/post2-2/" class="btn btn-outline-primary">read more</a>
+          </div>
+        </article>
+      </div>
+      
+      <div class="col-lg-4 small-post-border">
+        <article class="media">
+          
+          <div class="recent-post-thumb mr-3" style="background-image: url('https://supermonkeydesign.github.io/images/post/post-3.jpg');"></div>
+          
+          <div class="media-body">
+            <div class="mb-3 post-meta">
+              <span>By Super Monkey</span>
+              
+              <span class="border-bottom border-primary px-2 mx-1"></span>
+              <span>27 Oct 2021</span>
+              
+            </div>
+            <a href="https://supermonkeydesign.github.io/blog/post3-3/" class="h5 d-block mb-3">第三章 單元3 - 使用 Hugo shortcodes</a>
+            <a href="https://supermonkeydesign.github.io/blog/post3-3/" class="btn btn-outline-primary">read more</a>
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mb-5 mb-lg-0">
+        <div class="row">
+          
+          
+          <div class="col-md-6 mb-4">
+            <article class="card">
+              
+              <img src="https://supermonkeydesign.github.io/images/post/post-3.jpg" class="card-img-top" alt="How To Use Checklists To Improve Your UX">
+              
+              <div class="card-body px-0">
+                
+                <a href="/categories/go-language"
+                  class="text-primary">Go language</a>
+                
+                <a href="https://supermonkeydesign.github.io/blog/post-13/" class="h5 d-block my-3">How To Use Checklists To Improve Your UX</a>
+                <div class="mb-3 post-meta">
+                  <span>By Super Monkey</span>
+                  
+                  <span class="border-bottom border-primary px-2 mx-1"></span>
+                  <span>29 October 2019</span>
+                  
+                </div>
+                <p class="card-text">Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</p>
+                <a href="https://supermonkeydesign.github.io/blog/post-13/" class="btn btn-outline-primary">read more</a>
+              </div>
+            </article>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="col-lg-4">
+  <div class="widgets">
+    
+    <div class="widget">
+      
+      <h4 class="widget-title">About Me</h4>
+      
+      <img src="https://supermonkeydesign.github.io/images/SSS.png" alt=""
+        class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
+      
+      <p>Web | UI/UX Design
+#Find your Web &amp; UI/UX designs inspiration here</p>
+      <a href="https://supermonkeydesign.github.io/about/" class="btn btn-outline-primary">Know More</a>
+      
+    </div>
+    
+    <div class="widget">
+      <h4 class="widget-title">Category</h4>
+      <ul class="list-unstyled">
+        <li><a
+            href="/categories/go-language">Go language</a>
+        </li>
+        <li><a
+            href="/categories/%e7%a5%95%e6%8a%80">祕技</a>
+        </li>
+        <li><a
+            href="/categories/%e8%a3%bd%e4%bd%9c">製作</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="widget">
+      <h4 class="widget-title">Tag</h4>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+            href="/tags/code">Code</a></li>
+        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+            href="/tags/game">Game</a></li>
+        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+            href="/tags/html">HTML</a></li>
+        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+            href="/tags/new">New</a></li>
+        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+            href="/tags/notes">Notes</a></li>
+        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+            href="/tags/photos">Photos</a></li>
+        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+            href="/tags/python">Python</a></li>
+        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+            href="/tags/web">Web</a></li>
+      </ul>
+    </div>
+    
+    <div class="widget">
+      <h4 class="widget-title">Social</h4>
+      <ul class="list-inline social-links">
+        
+        <li class="list-inline-item"><a href="https://www.instagram.com/sm2021design/"><i class="ti-instagram"></i></a></li>
+        
+        <li class="list-inline-item"><a href="https://github.com/supermonkeydesign"><i class="ti-github"></i></a></li>
+        
+        <li class="list-inline-item"><a href="https://www.behance.net/SxS-sindy528"><i class="bi-behance"></i></a></li>
+        
+      </ul>
+    </div>
+    
+    <div class="widget">
+      <img src="https://supermonkeydesign.github.io/images/promotion.png" alt="" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+      
+
+      
+      <div class="col-12 mt-5">
+        
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item active">
+        <a href="#" aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item disabled">
+        <a href="#" aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a href="#" aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 
