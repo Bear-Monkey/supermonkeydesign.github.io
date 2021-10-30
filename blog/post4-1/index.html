@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="發佈個人網站至 github pages">
+  <meta name="description" content="單元一 發佈個人網站至 Github Pages">
   <meta name="author" content="Super Monkey">
   <meta name="generator" content="Hugo 0.88.1" />
 
@@ -121,10 +121,10 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <a href="/categories/%e8%a3%bd%e4%bd%9c"
-          class="text-primary">製作</a>
+        <a href="/categories/set-up"
+          class="text-primary">Set up</a>
         
-        <h2>第四章 單元一 展示你的網站</h2>
+        <h2>第四章 展示你的個人網站 單元一 發佈個人網站至 Github Pages</h2>
         <div class="mb-3 post-meta">
           <span>By Super Monkey</span>
           
@@ -133,27 +133,80 @@
           
         </div>
         
-        <img src="https://supermonkeydesign.github.io/images/post/post-1.jpg" class="img-fluid w-100 mb-4" alt="第四章 單元一 展示你的網站">
+        <img src="https://supermonkeydesign.github.io/images/post/post-1.jpg" class="img-fluid w-100 mb-4" alt="第四章 展示你的個人網站 單元一 發佈個人網站至 Github Pages">
         
         <div class="content mb-5">
-          <h5 id="1github網站-new-repository">1.Github網站<code>「＋」&gt; new repository</code></h5>
-<h5 id="2new-repository命名規則-github帳號名githubio設定完成-creative-repository">2.new repository命名規則 <code>github帳號名＋github.io，設定完成 creative repository</code></h5>
-<h5 id="3repository-clone到電腦端頁面左上點擊set-up-in-desktop--開啟github-desktop">3.repository clone到電腦端<code>頁面左上點擊Set up in Desktop &gt; 開啟Github Desktop</code></h5>
-<h5 id="4clone位置-詢問clone到電腦位置預設位置為文件建議不要變動">4.clone位置 <code>詢問clone到電腦位置，預設位置為文件，建議不要變動</code></h5>
-<p>** /Users/sindysu/Documents/GitHub/sindy528.github.io **</p>
-<h5 id="5文件資料夾已新增檔案夾sindy528githubio">5.文件資料夾已新增檔案夾「sindy528.github.io」</h5>
-<h3 id="hugo產生程式碼">hugo產生程式碼</h3>
+          <h3 id="4-1-發佈個人網站至-github-pages">4-1. 發佈個人網站至 Github Pages</h3>
+<h5 id="1repository-創建">1.Repository 創建：</h5>
+<p>Github Web 點選右上「+」號 &gt; 選擇「New repository」
+<a href="https://github.com/">Github</a></p>
+<h5 id="2new-repository-命名規則">2.New repository 命名規則：</h5>
+<p>github帳號名稱後，輸入github.io，設定完成到下面點選「creative repository」送出後，產生檔案夾資訊頁面</p>
+<ul>
+<li>
+<p><a href="https://github.com/supermonkeydesign/go-travel.github.io">supermonkeydesign.github.io</a></p>
+</li>
+<li>
+<p>go-travel.github.io</p>
+</li>
+</ul>
+<h5 id="3repository-clone-到電腦端">3.Repository clone 到電腦端：</h5>
+<p>點選左上「Set up in Desktop」開啟「GitHub Desktop.app」</p>
+<h5 id="4clone-a-repository-位置">4.Clone a Repository 位置：</h5>
+<p>預設位置「Finder」<em>建議不要變動</em> 點選「Clone」</p>
 <blockquote>
-<p>接下用hugo產生個人網站程式碼後，再丟到sindy528.github.io檔案夾後，再上傳到 github</p>
+<p>/Users/sindysu/Documents/GitHub/sindy528.github.io</p>
 </blockquote>
-<h5 id="1hugo產生個人網站程式碼-開啟終端機輸入hugo看到圖表即表示成功">1.hugo產生個人網站程式碼 <code>開啟終端機輸入：hugo，看到圖表即表示成功</code></h5>
+<h5 id="5github-desktop-新增更新">5.Github Desktop 新增、更新：</h5>
+<ol>
+<li>
+<p>新增檔案夾：Clone 成功可看到「Current Repository」下顯示新資料夾名稱</p>
+</li>
+<li>
+<p>更新上傳：</p>
+</li>
+</ol>
+<ul>
+<li>異動 Changes下 輸入Commit，點選「Commit to main」</li>
+<li>左上「Publish branch」顯示異動檔案數，確認上傳更新</li>
+</ul>
+<h5 id="6-檔案夾本機位置">6. 檔案夾本機位置：</h5>
+<ol>
+<li>Finder &gt; 文件 &gt; Giuhub &gt; 產出新檔案夾「supermonkeydesign.github.io」</li>
+</ol>
+<h3 id="hugo-產生個人網站程式碼">Hugo 產生個人網站程式碼</h3>
 <blockquote>
-<p>每異動一次，務必至終端機輸入一次：hugo ，待出現Total in 210 ms 顯示產出時間方可繼續下列動作</p>
+<p>電腦上運行Hugo個人網站，終端機輸入<code>hugo server</code></p>
 </blockquote>
-<h5 id="2本機public覆蓋文件public檔案-回到桌面檔檔案夾內出現新檔案夾public將內部檔案移至蓋掉文件githubio檔案夾資料">2.本機public覆蓋文件public檔案 <code>回到桌面檔檔案夾內出現新檔案夾：public，將內部檔案移至，蓋掉&gt;文件&gt;Github.io檔案夾資料</code></h5>
-<h5 id="3開啟github-desktop-確認更新檔案--commit--fetch-origin">3.開啟Github Desktop <code>確認更新檔案 &gt; commit &gt; Fetch origin</code></h5>
-<h4 id="4至giehub個人網站確認更新-回-httpsgithubcomsupermonkeydesignsupermonkeydesigngithubio">4.至Giehub個人網站確認更新 <code>回 https://github.com/supermonkeydesign/supermonkeydesign.github.io</code></h4>
-<h4 id="5至個人網站文章更新確認-supermonkeydesigngithubio-">5.至個人網站文章更新確認 <code>supermonkeydesign.github.io </code></h4>
+<blockquote>
+<p>Hugo 產生個人網站程式碼，終端機輸入<code>hugo</code></p>
+</blockquote>
+<h5 id="1hugo-產出個人網站程式碼">1.Hugo 產出個人網站程式碼：</h5>
+<p>終端機輸入<code>hugo</code>看到圖表即表示成功</p>
+<blockquote>
+<p>異動至終端機輸入：hugo，出現 Total in 210 ms 顯示產出時間方可繼續動作</p>
+</blockquote>
+<h5 id="2hugo-產出個人網站程式碼">2.Hugo 產出個人網站程式碼：</h5>
+<ol>
+<li>桌面「exampleSite」&gt; 產出新資料夾「public」</li>
+<li>將「public」內拉 到 Finder &gt; 文件 &gt; Github &gt; 「supermonkeydesign.github」檔案夾內</li>
+</ol>
+<h5 id="3上傳程式碼到-github">3.上傳程式碼到 Github：</h5>
+<ol>
+<li>開啟 Github Desktop</li>
+<li>Changes 下確認檔案夾，輸入：Commit</li>
+<li>點選「Commit to main」</li>
+<li>右上「Fetch origin」顯示異動檔案數，確認上傳更新</li>
+</ol>
+<h5 id="4-確認更新">4. 確認更新</h5>
+<ul>
+<li>
+<p><a href="https://github.com/supermonkeydesign/supermonkeydesign.github.io">Giehub 個人網站</a></p>
+</li>
+<li>
+<p><a href="supermonkeydesign.github.io">個人網站文章</a></p>
+</li>
+</ul>
 
         </div>
 
@@ -207,13 +260,16 @@
         <h6 class="mb-4">Categories</h6>
         <ul class="list-unstyled">
           <li class="mb-3"><a class="text-dark"
+              href="/categories/code">Code</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
               href="/categories/go-language">Go language</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e7%a5%95%e6%8a%80">祕技</a>
+              href="/categories/notes">Notes</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e8%a3%bd%e4%bd%9c">製作</a>
+              href="/categories/set-up">Set up</a>
           </li>
         </ul>
       </div>

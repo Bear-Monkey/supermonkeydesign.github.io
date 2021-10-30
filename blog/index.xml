@@ -6,65 +6,83 @@
     <description>Recent content in Blogs on Welcome~超級猴子設計實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 28 Oct 2021 10:07:47 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Oct 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>第二章 認識Hugo</title>
-      <link>https://supermonkeydesign.github.io/blog/post2-1/</link>
-      <pubDate>Thu, 28 Oct 2021 10:07:47 +0800</pubDate>
+      <title>第四章 展示你的個人網站 單元二 添加評論功能</title>
+      <link>https://supermonkeydesign.github.io/blog/post4-2/</link>
+      <pubDate>Thu, 28 Oct 2021 12:00:00 +0800</pubDate>
       
-      <guid>https://supermonkeydesign.github.io/blog/post2-1/</guid>
-      <description>第2-1章 : Hugo 介紹 快速產生個人網站程式碼的工具(https://gohugo.io/)
-1.選擇Themes，進到頁面，右邊顯示分類 2.選取主題，可預覽跟下載 3.下載解壓縮後，將「exampleSite」檔案夾拉到桌面 4.exampleSite內新增「Themes」檔案夾，務必要為此名稱 5.回到下載內，將主題檔案夾其他檔案全部移至，桌面exampleSite &amp;gt; Themes檔案夾 </description>
+      <guid>https://supermonkeydesign.github.io/blog/post4-2/</guid>
+      <description>4-2.添加評論功能 安裝 Hugo comments 支援靜態的 Github Page
+1.Hugo 網站搜尋「comments」 (https://gohugo.io/content-management/comments/#readout)</description>
     </item>
     
     <item>
-      <title>第二章 認識Hugo</title>
-      <link>https://supermonkeydesign.github.io/blog/post2-2/</link>
-      <pubDate>Thu, 28 Oct 2021 10:07:47 +0800</pubDate>
+      <title>第四章 展示你的個人網站 單元一 發佈個人網站至 Github Pages</title>
+      <link>https://supermonkeydesign.github.io/blog/post4-1/</link>
+      <pubDate>Wed, 27 Oct 2021 16:00:00 +0800</pubDate>
       
-      <guid>https://supermonkeydesign.github.io/blog/post2-2/</guid>
-      <description>第2-2章 : 在 MAC 上使用 Hugo 運行個人網站 mac與pc方式不同，2-2mac/2-3pc 安裝方式
-1.Homebrew Mac版安裝:   搜尋「mac brew」選擇macOS，缺少套件的管理工具安裝homebrew套件再運用homebrew去安裝Hugo *</description>
+      <guid>https://supermonkeydesign.github.io/blog/post4-1/</guid>
+      <description>4-1. 發佈個人網站至 Github Pages 1.Repository 創建： Github Web 點選右上「+」號 &amp;gt; 選擇「New repository」 Github</description>
     </item>
     
     <item>
-      <title>第三章 單元3 - 使用 Hugo shortcodes</title>
+      <title>第三章 嘗試寫一篇文章吧！單元三 使用 Hugo shortcodes</title>
       <link>https://supermonkeydesign.github.io/blog/post3-3/</link>
       <pubDate>Wed, 27 Oct 2021 15:00:00 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/blog/post3-3/</guid>
-      <description>1.Hugo shortcodes hugo 網站搜 shortcodes   https://gohugo.io/content-management/shortcodes/
- 2.shortcodes介紹 搜尋選擇 shortcodes，進入介紹敘述，因markdoum於hugo上運行便利，但有時支援不足。  右邊Create Custom Shortcodes可選取插入支援項目 https://gohugo.</description>
+      <description>3-3. Hugo shortcodes 安裝設定 1.Hugo shortcodes：hugo 網站搜尋 shortcodes
+2.shortcodes 介紹：搜尋選擇 shortcodes，進入介紹敘述，因 markdoum 於 hugo 上運行便利，但有時支援不足  右邊Create Custom Shortcodes可選取插入支援項目 https://gohugo.</description>
     </item>
     
     <item>
-      <title>第四章 單元一 展示你的網站</title>
-      <link>https://supermonkeydesign.github.io/blog/post4-1/</link>
-      <pubDate>Wed, 27 Oct 2021 12:00:00 +0800</pubDate>
-      
-      <guid>https://supermonkeydesign.github.io/blog/post4-1/</guid>
-      <description>1.Github網站「＋」&amp;gt; new repository 2.new repository命名規則 github帳號名＋github.io，設定完成 creative repository 3.repository clone到電腦端頁面左上點擊Set up in Desktop &amp;gt; 開啟Github Desktop 4.</description>
-    </item>
-    
-    <item>
-      <title>第三章 單元2 - Markdowm 分類文章，為文章加上標籤</title>
+      <title>第三章 嘗試寫一篇文章吧！ 單元二 分類文章，為文章加上標籤</title>
       <link>https://supermonkeydesign.github.io/blog/post3-2/</link>
       <pubDate>Wed, 20 Oct 2021 17:00:00 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/blog/post3-2/</guid>
-      <description>1.Hugo程式碼設定 第1-24行程式，且務必置頂，網站才能顯示該文章，第3行 +6改+8台灣時區，程式碼複製post-13來修改 2 文章狀態draft 第4行程式，false(完稿) / true(草稿)Hugo語言不會顯示草稿文章， 3.圖片位置image第7行程式，圖片檔案夾 static &amp;gt; post &amp;gt; 選擇圖片（必填副檔名） 4.</description>
+      <description>3-2. Markdowm 文章分類及標籤設定 1.Hugo 程式碼設定：  第1-24行程式且務必置頂，網站才能顯示該文章 第3行時區：改+8台灣時區，複製 post-13 程式碼來修改  2 文章狀態：第4行程式「draft」  false(完稿) 預設 true(草稿) Hugo 語言不會顯示草稿文章  3.</description>
     </item>
     
     <item>
-      <title>第三章 單元1 - Markdowm 語法介紹</title>
+      <title>第三章 嘗試寫一篇文章吧！ 單元一 Markdowm 是什麼？Markdowm 語法介紹</title>
       <link>https://supermonkeydesign.github.io/blog/post3-1/</link>
       <pubDate>Wed, 20 Oct 2021 15:30:00 +0800</pubDate>
       
       <guid>https://supermonkeydesign.github.io/blog/post3-1/</guid>
-      <description>第3-1章 : Markdown 語法介紹 1.內文 換行空一行，再接下行 例：
+      <description>3-1. Markdowm 語法介紹及操作 1.內文：換行空一行，再接下行 例：
 我是超級猴子，超級猴子愛學習
 超級猴子愛學習，我是超級猴子
-2.標題 文字前輸入「 # 」+「空格」+「文字」 支援大小：# 一級標題 ～ ###### 六級標題</description>
+2.標題：文字前輸入「 # 」+「空格」+「文字」 支援大小：# 一級標題 ～ ###### 六級標題</description>
+    </item>
+    
+    <item>
+      <title>第二章 認識 Hugo 單元四 VS Code 安裝 個人網站參數設定 </title>
+      <link>https://supermonkeydesign.github.io/blog/post2-4/</link>
+      <pubDate>Tue, 19 Oct 2021 15:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post2-4/</guid>
+      <description>2-4.VS Code 安裝 個人網站參數設定 1.安裝 VS Code :   網路搜尋 VS Code</description>
+    </item>
+    
+    <item>
+      <title>第二章 認識 Hugo 單元二 在MAC上使用Hugo運行個人網站</title>
+      <link>https://supermonkeydesign.github.io/blog/post2-2/</link>
+      <pubDate>Tue, 19 Oct 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post2-2/</guid>
+      <description>2-2. 在 MAC 上使用 Hugo 運行個人網站  安裝教學：MAC 單元2-2 / PC 單元2-3</description>
+    </item>
+    
+    <item>
+      <title>第二章 認識 Hugo 單元一 Hugo 是什麼？挑選一個你喜歡的主題吧！</title>
+      <link>https://supermonkeydesign.github.io/blog/post2-1/</link>
+      <pubDate>Tue, 19 Oct 2021 10:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post2-1/</guid>
+      <description>2-1. Hugo 是什麼？挑選一個你喜歡的主題吧！  快速產生個人網站程式碼的工具(https://gohugo.io/)
+ 1.選擇 Themes，頁面右邊為分類選項 2.選取主題，可預覽跟下載  老師blog 運用 live hugo主題修改，拿掉圖塊只留文字部分。個人簡介頁面，拿掉相簿，修改為機經歷時間軸</description>
     </item>
     
     <item>

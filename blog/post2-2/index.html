@@ -121,45 +121,94 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <a href="/categories/go-language"
-          class="text-primary">Go language</a>
+        <a href="/categories/set-up"
+          class="text-primary">Set up</a>
         
-        <h2>第二章 認識Hugo</h2>
+        <h2>第二章 認識 Hugo 單元二 在MAC上使用Hugo運行個人網站</h2>
         <div class="mb-3 post-meta">
           <span>By Super Monkey</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>28 October 2021</span>
+          <span>19 October 2021</span>
           
         </div>
         
-        <img src="https://supermonkeydesign.github.io/images/post/post-2.jpg" class="img-fluid w-100 mb-4" alt="第二章 認識Hugo">
+        <img src="https://supermonkeydesign.github.io/images/post/post-2.jpg" class="img-fluid w-100 mb-4" alt="第二章 認識 Hugo 單元二 在MAC上使用Hugo運行個人網站">
         
         <div class="content mb-5">
-          <h3 id="第2-2章--在-mac-上使用-hugo-運行個人網站">第2-2章 : 在 MAC 上使用 Hugo 運行個人網站</h3>
-<p><strong>mac與pc方式不同，2-2mac/2-3pc 安裝方式</strong></p>
-<h5 id="1homebrew-mac版安裝">1.Homebrew Mac版安裝:</h5>
-<ul>
+          <h4 id="2-2-在-mac-上使用-hugo-運行個人網站">2-2. 在 MAC 上使用 Hugo 運行個人網站</h4>
+<blockquote>
+<p>安裝教學：MAC 單元2-2 / PC 單元2-3</p>
+</blockquote>
+<p><strong>先安裝 Homebrew 套件支援 Hugo，才能再安裝 Hugo</strong></p>
+<h5 id="1homebrew-mac-版安裝">1.Homebrew Mac 版安裝</h5>
+<ol>
+<li>網路搜尋「mac brew」</li>
+</ol>
+<blockquote>
+<p>macOS 缺少套件的管理工具 - Homebrew (<a href="https://brew.sh/index_zh-tw">https://brew.sh/index_zh-tw</a>)</p>
+</blockquote>
+<ol start="2">
+<li>執行 Homebrew : 複製頁面程式碼貼至終端機</li>
+</ol>
+<blockquote>
+<p>/bin/bash -c &ldquo;$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)%22">https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;</a></p>
+</blockquote>
+<p><strong>安裝成功顯示 : Installation successfu!</strong></p>
+<h5 id="2安裝-hugo">2.安裝 Hugo</h5>
+<ol>
 <li>
-<p>搜尋「mac brew」選擇macOS，缺少套件的管理工具安裝homebrew套件再運用homebrew去安裝Hugo *</p>
-<ul>
-<li><a href="https://brew.sh/index_zh-tw">Homebrew 連結</a></li>
-</ul>
+<p>mac 安裝教學 : Hugo 網站下方複製 mac 程式碼貼到終端機執行<code>brew install hugo</code></p>
 </li>
 <li>
-<p>執行 Homebrew，複製頁面程式碼貼至終端機上:
-/bin/bash -c &ldquo;$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)%22">https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;</a></p>
+<p>貼到終端機執行， 即安裝 hugo</p>
+</li>
+</ol>
+<h5 id="3homebrew-安裝後輸入hugo-version">3.Homebrew 安裝後輸入：<code>hugo version</code></h5>
+<p><strong>安裝成功顯示：Hugo Static Site Generator</strong></p>
+<h5 id="4-下載-hugo-主題">4. 下載 Hugo 主題</h5>
+<p>[Hugo Themes] (<a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>)</p>
+<ol>
+<li>
+<p>下載主題 Livs Hugo</p>
 </li>
 <li>
-<p>安裝成功:終端機執行，盲打密碼，顯示 Installation successfu!</p>
+<p>解壓 livs-hugo-master，內「exampleSite」檔案夾拉到桌面</p>
 </li>
-</ul>
-<h5 id="2安裝hugo">2.安裝Hugo:</h5>
-<ul>
-<li>Hugo網站下方mac安裝教學，複製 brew install hugo 貼到終端機執行，Homebrew即安裝hugo `</li>
-</ul>
-<h5 id="3brew安裝完成輸入hugo-version顯示hugo-static-site-generator-即安裝成功">3.brew安裝完成輸入：hugo version，顯示：Hugo Static Site Generator 即安裝成功</h5>
-<h5 id="4">4.</h5>
+<li>
+<p>exampleSite 內新增「Themes」檔案夾</p>
+</li>
+</ol>
+<blockquote>
+<p>新增檔案夾務必要叫「Themes」</p>
+</blockquote>
+<ol start="4">
+<li>
+<p>回到下載內將「livs-hugo-master」移至，桌面「exampleSite」內「Themes」檔案夾</p>
+</li>
+<li>
+<p>「Themes」內「livs-hugo-master」刪掉「master」</p>
+</li>
+</ol>
+<h5 id="5-在電腦上運行個人網站">5. 在電腦上運行個人網站</h5>
+<ol>
+<li>
+<p>桌面檔案夾「exampleSite」右鍵選擇 <code>「新增位於檔案夾位置的終端機視窗」</code></p>
+</li>
+<li>
+<p>每異動務必至終端機輸入：<code>hugo server</code></p>
+</li>
+<li>
+<p>終端機複製產出連結，貼至網站即可</p>
+</li>
+</ol>
+<blockquote>
+<p>Web Server is available at <code>http://localhost:1313/</code> (bind address 127.0.0.1)
+Press Ctrl+C to stop</p>
+</blockquote>
+<blockquote>
+<p>終止hugo運行，到終端機：<code>輸入 Ctrl+C</code> 或直接關掉</p>
+</blockquote>
 
         </div>
 
@@ -213,13 +262,16 @@
         <h6 class="mb-4">Categories</h6>
         <ul class="list-unstyled">
           <li class="mb-3"><a class="text-dark"
+              href="/categories/code">Code</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
               href="/categories/go-language">Go language</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e7%a5%95%e6%8a%80">祕技</a>
+              href="/categories/notes">Notes</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e8%a3%bd%e4%bd%9c">製作</a>
+              href="/categories/set-up">Set up</a>
           </li>
         </ul>
       </div>

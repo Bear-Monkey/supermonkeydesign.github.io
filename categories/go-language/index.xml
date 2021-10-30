@@ -6,37 +6,7 @@
     <description>Recent content in Go Language on Welcome~超級猴子設計實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 28 Oct 2021 10:07:47 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/categories/go-language/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>第二章 認識Hugo</title>
-      <link>https://supermonkeydesign.github.io/blog/post2-1/</link>
-      <pubDate>Thu, 28 Oct 2021 10:07:47 +0800</pubDate>
-      
-      <guid>https://supermonkeydesign.github.io/blog/post2-1/</guid>
-      <description>第2-1章 : Hugo 介紹 快速產生個人網站程式碼的工具(https://gohugo.io/)
-1.選擇Themes，進到頁面，右邊顯示分類 2.選取主題，可預覽跟下載 3.下載解壓縮後，將「exampleSite」檔案夾拉到桌面 4.exampleSite內新增「Themes」檔案夾，務必要為此名稱 5.回到下載內，將主題檔案夾其他檔案全部移至，桌面exampleSite &amp;gt; Themes檔案夾 </description>
-    </item>
-    
-    <item>
-      <title>第二章 認識Hugo</title>
-      <link>https://supermonkeydesign.github.io/blog/post2-2/</link>
-      <pubDate>Thu, 28 Oct 2021 10:07:47 +0800</pubDate>
-      
-      <guid>https://supermonkeydesign.github.io/blog/post2-2/</guid>
-      <description>第2-2章 : 在 MAC 上使用 Hugo 運行個人網站 mac與pc方式不同，2-2mac/2-3pc 安裝方式
-1.Homebrew Mac版安裝:   搜尋「mac brew」選擇macOS，缺少套件的管理工具安裝homebrew套件再運用homebrew去安裝Hugo *</description>
-    </item>
-    
-    <item>
-      <title>第三章 單元3 - 使用 Hugo shortcodes</title>
-      <link>https://supermonkeydesign.github.io/blog/post3-3/</link>
-      <pubDate>Wed, 27 Oct 2021 15:00:00 +0800</pubDate>
-      
-      <guid>https://supermonkeydesign.github.io/blog/post3-3/</guid>
-      <description>1.Hugo shortcodes hugo 網站搜 shortcodes   https://gohugo.io/content-management/shortcodes/
- 2.shortcodes介紹 搜尋選擇 shortcodes，進入介紹敘述，因markdoum於hugo上運行便利，但有時支援不足。  右邊Create Custom Shortcodes可選取插入支援項目 https://gohugo.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/categories/go-language/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To Use Checklists To Improve Your UX</title>
       <link>https://supermonkeydesign.github.io/blog/post-13/</link>

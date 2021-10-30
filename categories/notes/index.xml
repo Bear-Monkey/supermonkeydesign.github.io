@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Welcome~超級猴子設計實驗室</title>
+    <link>https://supermonkeydesign.github.io/categories/notes/</link>
+    <description>Recent content in Notes on Welcome~超級猴子設計實驗室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 27 Oct 2021 15:00:00 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第三章 嘗試寫一篇文章吧！單元三 使用 Hugo shortcodes</title>
+      <link>https://supermonkeydesign.github.io/blog/post3-3/</link>
+      <pubDate>Wed, 27 Oct 2021 15:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post3-3/</guid>
+      <description>3-3. Hugo shortcodes 安裝設定 1.Hugo shortcodes：hugo 網站搜尋 shortcodes
+2.shortcodes 介紹：搜尋選擇 shortcodes，進入介紹敘述，因 markdoum 於 hugo 上運行便利，但有時支援不足  右邊Create Custom Shortcodes可選取插入支援項目 https://gohugo.</description>
+    </item>
+    
+    <item>
+      <title>第三章 嘗試寫一篇文章吧！ 單元二 分類文章，為文章加上標籤</title>
+      <link>https://supermonkeydesign.github.io/blog/post3-2/</link>
+      <pubDate>Wed, 20 Oct 2021 17:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post3-2/</guid>
+      <description>3-2. Markdowm 文章分類及標籤設定 1.Hugo 程式碼設定：  第1-24行程式且務必置頂，網站才能顯示該文章 第3行時區：改+8台灣時區，複製 post-13 程式碼來修改  2 文章狀態：第4行程式「draft」  false(完稿) 預設 true(草稿) Hugo 語言不會顯示草稿文章  3.</description>
+    </item>
+    
+    <item>
+      <title>第二章 認識 Hugo 單元一 Hugo 是什麼？挑選一個你喜歡的主題吧！</title>
+      <link>https://supermonkeydesign.github.io/blog/post2-1/</link>
+      <pubDate>Tue, 19 Oct 2021 10:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post2-1/</guid>
+      <description>2-1. Hugo 是什麼？挑選一個你喜歡的主題吧！  快速產生個人網站程式碼的工具(https://gohugo.io/)
+ 1.選擇 Themes，頁面右邊為分類選項 2.選取主題，可預覽跟下載  老師blog 運用 live hugo主題修改，拿掉圖塊只留文字部分。個人簡介頁面，拿掉相簿，修改為機經歷時間軸</description>
+    </item>
+    
+  </channel>
+</rss>
