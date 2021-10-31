@@ -157,19 +157,8 @@
 <blockquote>
 <p>/Users/sindysu/Documents/GitHub/sindy528.github.io</p>
 </blockquote>
-<h5 id="5github-desktop-新增更新">5.Github Desktop 新增、更新：</h5>
-<ol>
-<li>
+<h5 id="5github-desktop-新增">5.Github Desktop 新增：</h5>
 <p>新增檔案夾：Clone 成功可看到「Current Repository」下顯示新資料夾名稱</p>
-</li>
-<li>
-<p>更新上傳：</p>
-</li>
-</ol>
-<ul>
-<li>異動 Changes下 輸入Commit，點選「Commit to main」</li>
-<li>左上「Publish branch」顯示異動檔案數，確認上傳更新</li>
-</ul>
 <h5 id="6-檔案夾本機位置">6. 檔案夾本機位置：</h5>
 <ol>
 <li>Finder &gt; 文件 &gt; Giuhub &gt; 產出新檔案夾「supermonkeydesign.github.io」</li>
@@ -204,14 +193,51 @@
 <p><a href="https://github.com/supermonkeydesign/supermonkeydesign.github.io">Giehub 個人網站</a></p>
 </li>
 <li>
-<p><a href="supermonkeydesign.github.io">個人網站文章</a></p>
+<p><a href="supermonkeydesign.github.io">Hugo 個人網站</a></p>
 </li>
 </ul>
+<h3 id="新增blog文章">新增Blog文章</h3>
+<h5 id="1vs-code">1.VS Code</h5>
+<ol>
+<li>content &gt; blog 右鍵新增</li>
+<li>檔名後，副檔名<code>.md</code></li>
+<li>開舊檔複製 Hugo文章設定，貼到新章上</li>
+</ol>
+<blockquote>
+<p>Hugo 文章設定：見文章1~24行程式碼</p>
+</blockquote>
+<h5 id="2-hugo-產出程式碼上傳-github">2. Hugo 產出程式碼上傳 Github</h5>
+<ol>
+<li>終端機輸入：hugo</li>
+<li>桌面 exampleSite &gt; public 檔案拖拉到「文件」中「github.io 」資料夾</li>
+<li>文件 &gt; github &gt; github.io</li>
+<li>Github Desktop &gt; commit &gt; Commit to master &gt; Fetch origin</li>
+<li>github 重新整理頁面，個人網站更新完成</li>
+</ol>
 
         </div>
 
         
-        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "super-monkey" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </div>
     </div>
   </div>

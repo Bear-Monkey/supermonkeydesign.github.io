@@ -167,11 +167,63 @@
 <blockquote>
 <p>部分主題如找不到此檔案，需到「layouts &gt; default &gt; single.html 」自行搜索</p>
 </blockquote>
+<h3 id="disqus-帳號申請">Disqus 帳號申請</h3>
+<h5 id="1disqus-安裝設定">1.Disqus 安裝設定</h5>
+<ol>
+<li>到 Hugo 網站搜尋 <a href="https://disqus.com/">Disqus</a></li>
+<li>Disqus &gt; 點擊左上「Get Started」</li>
+<li>可用 google 申請，同 Github 帳號</li>
+</ol>
+<!-- raw HTML omitted -->
+<ol start="4">
+<li>VS Code 開啟 config.toml</li>
+<li>將 Disqus 的帳號填入</li>
+</ol>
+<blockquote>
+<p>disqusShortname = &ldquo;super-monkey&rdquo;</p>
+</blockquote>
+<h5 id="2disqus-驗證申請成功">2.Disqus 驗證申請成功</h5>
+<ol>
+<li>開啟終端機 &gt; hugo server</li>
+<li>文章下方出現字樣，即表示設定完成</li>
+</ol>
+<blockquote>
+<p>Disqus comments not available by default when the website is previewed locally.
+comments powered by Disqus</p>
+</blockquote>
+<h5 id="3disqus-上傳至-github-page">3.Disqus 上傳至 Github page</h5>
+<ol>
+<li>關閉終端機 &gt; control + D</li>
+<li>exampleSite 標籤頁 &gt; 開啟終端機 &gt; hugo</li>
+<li>exampleSite &gt; public 內檔移動到 supermonkeydesign.github.io</li>
+<li>文件 &gt; Github &gt; supermonkeydesign.github.io</li>
+<li>開啟 Github Desktop &gt; commit<code>Disqus</code>&gt; 上傳</li>
+<li>到個人網站文章下確認評論功能即可</li>
+</ol>
 
         </div>
 
         
-        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "super-monkey" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </div>
     </div>
   </div>
