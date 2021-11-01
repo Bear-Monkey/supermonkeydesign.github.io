@@ -140,19 +140,121 @@
 <h5 id="1安裝-google-analytics">1.安裝 Google Analytics</h5>
 <ol>
 <li>網站搜尋 Google Analytics</li>
-<li>登入 Google 帳號：sm2021design＠（Super Monkey）</li>
+<li>登入 Google 帳號</li>
+</ol>
+<ul>
+<li><a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin">https://accounts.google.com/ServiceLogin/signinchooser?elo=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin</a></li>
+<li>sm2021design（Super Monkey）</li>
+</ul>
+<ol start="3">
+<li>帳戶名稱：Super Monkey</li>
+<li>資源名稱：github page 帳號</li>
+</ol>
+<ul>
+<li>supermonkeydesign.github.io</li>
+</ul>
+<ol start="5">
+<li>
+<p>開啟「建立通用 Analytics 分析資源」的開關</p>
+</li>
+<li>
+<p>填上個人網站連結</p>
+</li>
+</ol>
+<ul>
+<li>supermonkeydesign.github.io</li>
+</ul>
+<ol start="7">
+<li>
+<p>選擇「建立通用 Analytic 分析資源」</p>
+</li>
+<li>
+<p>設定：產業別、文章類型、商家規模、GA運用商家，下面選項全部勾選並接受</p>
+</li>
+</ol>
+<h5 id="2google-analytics-設定">2.Google Analytics 設定</h5>
+<ol>
+<li>勾選「成效建議與最新消息」，每月可收到報表</li>
+<li>資源設定：複製追蹤 ID</li>
+</ol>
+<h5 id="3vs-code-設定-ga">3.VS Code 設定 GA</h5>
+<ol>
+<li>開啟 config.toml &gt; 將追蹤 ID 填入 googleAnalitycsID</li>
+<li>上傳至 Github Desktop 更新個人網站</li>
+</ol>
+<h3 id="主題不支援ga修改方式">主題不支援GA，修改方式</h3>
+<ol>
+<li>
+<p>Hugo 搜尋<a href="https://gohugo.io/templates/internal#google-analytics">Google Analytics</a></p>
+</li>
+<li>
+<p>Use the Google Analytics Template 複製程式碼</p>
+</li>
 </ol>
 <blockquote>
-<p><a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin">https://accounts.google.com/ServiceLogin/signinchooser?elo=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin</a></p>
+<p>{{ template &ldquo;_internal/google_analytics.html&rdquo; . }}</p>
 </blockquote>
-<p><strong>Ｈugo 原設定，後面填入個人GA 追蹤碼</strong></p>
+<ol start="3">
+<li>
+<p>VS Code 開啟 &gt;「Themes」&gt;「layouts」&gt;「partials」&gt; head.html</p>
+</li>
+<li>
+<p>head.html &gt; 將上面程式碼貼入 ＜head＞ tag 裡面</p>
+</li>
+<li>
+<p>Hugo 複製程式碼 <a href="https://gohugo.io/templates/internal#google-analytics">Configure Google Analytics</a></p>
+</li>
+</ol>
+<ul>
+<li>選擇<code>toml</code>&gt; googleAnalytics = &lsquo;UA-PROPERTY_ID&rsquo;</li>
+</ul>
+<ol start="6">
+<li>開啟 config.toml &gt; 將上列程式碼貼在下面即可</li>
+</ol>
 <blockquote>
 <h1 id="google-analitycs">Google Analitycs</h1>
 </blockquote>
-<p>googleAnalitycsID = &ldquo;UA-211224599-1&rdquo;</p>
-<p><strong>主題如無支援GA，須加註下列程式碼</strong></p>
+<ul>
+<li>googleAnalitycsID = &ldquo;UA-211224599-1&rdquo;</li>
+<li>googleAnalytics = &lsquo;UA-PROPERTY_ID&rsquo;
+<strong>主題本身有支援則無需設定上列<code>googleAnalytics</code></strong></li>
+</ul>
+<h5 id="4驗證-google-analitycs-設置成功">4.驗證 Google Analitycs 設置成功</h5>
+<ol>
+<li>開啟個人網站<a href="https://supermonkeydesign.github.io/">supermonkeydesign</a></li>
+<li>開啟<a href="https://analytics.google.com/analytics/web/#/a211224599w291262448p254071549/admin/tracking/tracking-code/">GA追蹤程式碼</a></li>
+<li>成功顯示：<code>狀態</code>&gt; 過去 48 小時內曾收到流量資料。1 位活躍使用者 (目前)。詳情請參閱即時流量報表</li>
+</ol>
+<h3 id="ga-報表指標介紹">GA 報表、指標介紹</h3>
+<h5 id="1google-analytics-分析-首頁">1.Google Analytics (分析) 首頁</h5>
+<ul>
+<li>使用者：期間內觀看者人數</li>
+<li>跳出率：期間內瀏覽後離開網站</li>
+<li>工作階段持續時間：停留該網站平均多久時間</li>
+<li>左下預設7天，可更動</li>
+<li>右邊為當下瀏覽人數</li>
+</ul>
+<h5 id="2您如何開發使用者流量來源">2.您如何開發使用者？<code>流量來源</code></h5>
+<ol>
+<li>Social：社交網站</li>
+<li>Referral：由其他網站，連結進到你的個人網站</li>
+<li>Direct：直接於網址列中輸入網址進入</li>
+<li>Organic Search：Google 搜尋點擊進入</li>
+</ol>
+<h5 id="3您的使用者位於哪些地區">3.您的使用者位於哪些地區？</h5>
+<p>瀏覽網站者區域</p>
+<h5 id="4您的使用者會在哪些時段造訪">4.您的使用者會在哪些時段造訪？</h5>
+<p>瀏覽網站時段，以台灣時間為主</p>
+<h5 id="5您的使用者常使用哪些裝置">5.您的使用者常使用哪些裝置？</h5>
+<p>電腦：以該裝置瀏覽網站</p>
+<h5 id="6您的使用者常造訪哪些網頁">6.您的使用者常造訪哪些網頁？</h5>
+<p>網頁瀏覽次數，次數多寡較熱門</p>
+<h5 id="7長期來看您的活躍使用者有什麼變化">7.長期來看，您的活躍使用者有什麼變化？</h5>
+<p>以1、7、30天數來計算，期間瀏覽人數</p>
+<h5 id="8您能否留住使用者">8.您能否留住使用者？</h5>
+<p>曾造訪該網站回流率</p>
 <blockquote>
-<p>googleAnalytics = &lsquo;UA-PROPERTY_ID&rsquo;</p>
+<p>補充：設定 GA 後，無論是本機或上傳後的網站流量，均會被計算列入</p>
 </blockquote>
 
         </div>
