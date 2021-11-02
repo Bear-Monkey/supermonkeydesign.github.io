@@ -6,7 +6,26 @@
     <description>Recent content in Code on Welcome~超級猴子設計實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 02 Nov 2021 10:07:47 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Nov 2021 21:07:47 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第五章 進階篇：客製化現有主題 單元一 自定義網站版型</title>
+      <link>https://supermonkeydesign.github.io/blog/post5-1/</link>
+      <pubDate>Tue, 02 Nov 2021 21:07:47 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post5-1/</guid>
+      <description>5-1. 自定義網站版型 </description>
+    </item>
+    
+    <item>
+      <title>第四章 展示你的個人網站 單元五 聊聊 Google AdSense</title>
+      <link>https://supermonkeydesign.github.io/blog/post4-5/</link>
+      <pubDate>Tue, 02 Nov 2021 12:07:47 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post4-5/</guid>
+      <description>4-5. 聊聊 Google AdSense 利用網站呈現的廣告賺取 Google 廣告流量費
+網站 用 Google AdSense 與 Google 簽約。</description>
+    </item>
+    
     <item>
       <title>第四章 展示你的個人網站 單元四 添加  Google Search Console</title>
       <link>https://supermonkeydesign.github.io/blog/post4-4/</link>
