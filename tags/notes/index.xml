@@ -6,7 +6,16 @@
     <description>Recent content in Notes on Welcome~超級猴子設計實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 01 Nov 2021 10:07:47 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Nov 2021 10:07:47 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第四章 展示你的個人網站 單元四 添加  Google Search Console</title>
+      <link>https://supermonkeydesign.github.io/blog/post4-4/</link>
+      <pubDate>Tue, 02 Nov 2021 10:07:47 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post4-4/</guid>
+      <description>4-4.添加 Google Search Console Sitemap 介紹 Sitemap 指個人網站地圖，上傳至 Google Search Console。 Google 知道個人網站所有頁面後，存至 Google 搜尋引擎裡面，在 Google 上搜尋時 就能找到你的個人網站。</description>
+    </item>
+    
     <item>
       <title>第四章 展示你的個人網站 單元三 添加 Google Analytics</title>
       <link>https://supermonkeydesign.github.io/blog/post4-3/</link>
@@ -14,15 +23,6 @@
       
       <guid>https://supermonkeydesign.github.io/blog/post4-3/</guid>
       <description>4-3.添加 Google Analytics 1.安裝 Google Analytics  網站搜尋 Google Analytics 登入 Google 帳號   https://accounts.</description>
-    </item>
-    
-    <item>
-      <title>第四章 展示你的個人網站 單元四 添加  Google Search Console</title>
-      <link>https://supermonkeydesign.github.io/blog/post4-4/</link>
-      <pubDate>Mon, 01 Nov 2021 10:07:47 +0800</pubDate>
-      
-      <guid>https://supermonkeydesign.github.io/blog/post4-4/</guid>
-      <description>4-4.添加 Google Search Console Sitemap 介紹 Sitemap 指個人網站地圖，上傳至 Google Search Console。 Google 知道個人網站所有頁面後，存至 Google 搜尋引擎裡面，在 Google 上搜尋時 就能找到你的個人網站。</description>
     </item>
     
     <item>
