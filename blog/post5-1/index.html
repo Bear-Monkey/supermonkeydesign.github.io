@@ -124,7 +124,7 @@
         <a href="/categories/notes"
           class="text-primary">Notes</a>
         
-        <h2>第五章 進階篇：客製化現有主題 單元一 自定義網站版型</h2>
+        <h2>第五章 進階篇：客製化現有主題</h2>
         <div class="mb-3 post-meta">
           <span>By Super Monkey</span>
           
@@ -133,7 +133,7 @@
           
         </div>
         
-        <img src="https://supermonkeydesign.github.io/images/post/post-3.jpg" class="img-fluid w-100 mb-4" alt="第五章 進階篇：客製化現有主題 單元一 自定義網站版型">
+        <img src="https://supermonkeydesign.github.io/images/post/post-3.jpg" class="img-fluid w-100 mb-4" alt="第五章 進階篇：客製化現有主題">
         
         <div class="content mb-5">
           <h3 id="5-1-自定義網站版型">5-1. 自定義網站版型</h3>
@@ -185,46 +185,153 @@
 <li>blog post 區塊，第7-9行 使用 Bootstrap 框架裡面的 Grid 功能</li>
 </ol>
 <blockquote>
-<p>1.<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p>第7行 &lt; div class=&ldquo;container&rdquo;&gt;</p>
 </blockquote>
-<p><strong>Hugo 專有語法：雙大括號 <code>{{ }}</code></strong>
-2. 第39行 sidebar 註解：第40行 為 sidebar 程式碼 {{ partial &ldquo;sidebar.html&rdquo; . }}</p>
+<blockquote>
+<p>第8行 &lt; div class=&ldquo;row&rdquo;&gt;</p>
+</blockquote>
+<blockquote>
+<p>第9行 &lt; div class=&ldquo;col-lg-8 mb-5 mb-lg-0&rdquo;&gt;</p>
+</blockquote>
+<p><strong>Hugo 專有語法：雙大括號 <code>{{ }}</code></strong></p>
+<ol>
+<li>第39行 sidebar 註解</li>
+<li>第40行 為 sidebar 程式碼</li>
+</ol>
+<blockquote>
+<p>{{ partial &ldquo;sidebar.html&rdquo; . }}</p>
+</blockquote>
 <blockquote>
 <p>Hugo 會載入放在 layouts 資料夾下的 partials 資料夾內的 sidebar.html 檔案 的程式碼</p>
 </blockquote>
 <ol start="3">
 <li>sidebar 段剪下，貼到 row 下方，側邊欄即右到左換置</li>
 </ol>
-<blockquote>
-<p>因運用 Bootstrap 框架的 Grid 功能，可這樣執行</p>
-</blockquote>
-<p><strong>側邊欄換置位置後，到下面<code>分類</code>頁面確認內頁是否也同步，如無，需到各別頁面的html檔內修改程式碼</strong></p>
+<ul>
+<li>因運用 Bootstrap 框架的 Grid 功能，可這樣執行</li>
+<li>側邊欄換置位置後，到下面 <code>分類</code>頁面確認內頁是否也同步，如無，需到各別頁面的html檔內修改程式碼</li>
+</ul>
 <h5 id="3側邊欄下分類版型修改">3.側邊欄下分類版型修改</h5>
 <ol>
 <li>themes &gt; layouts &gt;_default &gt; list.html</li>
 <li>將 sidebar 區塊程式碼剪下貼到 row 下即可</li>
 </ol>
-<h5 id="4刪除文章上的圖片區塊card">4.刪除文章上的圖片區塊<code>card</code></h5>
+<h5 id="4刪除文章上的圖片區塊-card">4.刪除文章上的圖片區塊 <code>card</code></h5>
 <ol>
 <li>開啟 layouts &gt; index.html</li>
-<li>第17行：每篇文章均有圖片 card 區塊</li>
 </ol>
 <blockquote>
-<!-- raw HTML omitted -->
+<p>&lt; article class=&ldquo;card&rdquo;&gt;</p>
 </blockquote>
-<ol start="3">
-<li>第18行 hugo 語法，判定 Markdown 檔案中有無寫上 image 設定</li>
+<ol start="2">
+<li>刪除第18-20行程式碼，即完成刪除文章上的圖檔</li>
 </ol>
+<ul>
+<li>第18行 hugo 語法，判定 Markdown 檔案中有無寫上 image 設定</li>
+</ul>
 <blockquote>
 <p>{{ if .Params.Image }}</p>
 </blockquote>
-<ol start="4">
+<ul>
 <li>第19行：如 Markdown 有 image 設定，則呈現圖片</li>
+</ul>
+<blockquote>
+<p>&lt; img src=&quot;{{ .Params.Image | absURL }}&quot; class=&ldquo;card-img-top&rdquo; alt=&quot;{{ .Title | markdownify }}&quot;&gt;</p>
+</blockquote>
+<ul>
+<li>第20行 結尾</li>
+</ul>
+<blockquote>
+<p>{{ end }}</p>
+</blockquote>
+<h5 id="5-日期顯示修改預設為英文月份--數字年">5. 日期顯示修改，預設為：英文月份 / 數字年</h5>
+<ol>
+<li>第29行 .PublishDate.Format，後面為呈現模式</li>
+</ol>
+<blockquote>
+<p>{{ .PublishDate.Format &ldquo;02 January 2006&rdquo; }}</p>
+</blockquote>
+<ol start="2">
+<li>
+<p>開啟 Hugo 網站搜尋 <a href="https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference">hugo date</a></p>
+</li>
+<li>
+<p>Hugo Date and Time Templating Reference 下為 hugo 所有支援格式</p>
+</li>
+<li>
+<p>於 hugo 上 copy 要換置的日期格式，換置即可</p>
+</li>
+</ol>
+<blockquote>
+<p>{{ .PublishDate.Format <code>&quot;2006-01-02&quot;</code> }}</p>
+</blockquote>
+<h5 id="6文章簡介自定義修改">6.文章簡介自定義修改</h5>
+<p>每篇文章簡介顯示為文章前段內容，修改成 第10行 description 簡介</p>
+<ol>
+<li>開啟 themes &gt; layouts &gt;_default &gt; index.html</li>
+<li>第32行 .Summary 改成 .Description</li>
+</ol>
+<blockquote>
+<p>&lt; p class=&ldquo;card-text&rdquo;&gt;{{ .Summary }}<!-- raw HTML omitted --></p>
+</blockquote>
+<blockquote>
+<p>&lt; p class=&ldquo;card-text&rdquo;&gt;{{ .Description }}<!-- raw HTML omitted --></p>
+</blockquote>
+<p><strong>首頁 index.html 改動後，內頁 list.html 也需更動</strong>
+3. 開啟 themes &gt; layouts &gt;_default &gt; list.html</p>
+<ol start="4">
+<li>第14行，載入</li>
+</ol>
+<blockquote>
+<p>{{ .Render &ldquo;post&rdquo; }}</p>
+</blockquote>
+<ol start="5">
+<li>
+<p>開啟文章設定檔 themes &gt; layouts &gt;_default &gt; post.html</p>
+</li>
+<li>
+<p>第16行 日期格式更動與首頁一致</p>
+</li>
+</ol>
+<blockquote>
+<p>{{ .PublishDate.Format &ldquo;02 January 2006&rdquo; }}</p>
+</blockquote>
+<ol start="7">
+<li>第19行 文章簡介顯示，更動與首頁一致</li>
 </ol>
 <blockquote>
 <!-- raw HTML omitted -->
 </blockquote>
+<blockquote>
+<!-- raw HTML omitted -->
+</blockquote>
+<h5 id="7-刪除側邊欄下方-ad-banner-廣告預留位置">7. 刪除側邊欄下方 AD Banner 廣告預留位置</h5>
+<ol>
+<li>開啟 layouts &gt; partials &gt; sidebar.html</li>
+<li>第 53 行註解，如有申請 Google AdSense 可於此設置</li>
+</ol>
+<blockquote>
+<p>&lt; !&ndash; advertisement &ndash;&gt;</p>
+</blockquote>
+<ol start="3">
+<li>將 advertisement 區塊移除 即不呈現廣告</li>
+</ol>
+<h5 id="8-刪除網頁下方資訊欄-footer">8. 刪除網頁下方資訊欄 <code>footer</code></h5>
+<p><strong>如程式碼中找不到區塊，回到網頁右鍵查詢</strong></p>
+<ol>
+<li>開啟 themes &gt; layouts &gt;_default &gt; index.html</li>
+<li>VS Cond 左邊搜尋 <code>&lt;footer&gt;</code></li>
+<li>開啟 themes &gt; layouts &gt;_default &gt; baseof.html</li>
+</ol>
+<blockquote>
+<p>{{- partial &ldquo;footer.html&rdquo; . -}}</p>
+</blockquote>
+<ol start="4">
+<li>開啟 themes &gt; layouts &gt; partials &gt; footer.html</li>
+</ol>
+<ul>
+<li>第23-83行 footer 區塊刪除</li>
+</ul>
 
         </div>
 
@@ -256,74 +363,7 @@
 
 
 
-<footer class="text-capitalize">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center mb-5">
-        <a href="https://supermonkeydesign.github.io"><img src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Welcome~超級猴子設計實驗室"></a>
-      </div>
-               
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Contact Me</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="tel:0979028484"><i
-                class="ti-mobile mr-3 text-primary"></i>0979028484</a></li>
-          
-                     
-          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taipei, Taiwan</li>
-          
-                     
-          <li class="mb-3"><a class="text-dark" href="mailto:sm2021design@gmail.com"><i
-                class="ti-email mr-3 text-primary"></i>sm2021design@gmail.com</a>
-          
-          </li>
-        </ul>
-      </div>
-      
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Social Contacts</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/sm2021design/">instagram</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="https://github.com/supermonkeydesign">github</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="https://www.behance.net/SxS-sindy528">be</a></li>
-          
-        </ul>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Categories</h6>
-        <ul class="list-unstyled">
-          <li class="mb-3"><a class="text-dark"
-              href="/categories/code">Code</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/categories/go-language">Go language</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/categories/notes">Notes</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/categories/set-up">Set up</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Quick Links</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="https://supermonkeydesign.github.io/about">About</a></li>
-          
-        </ul>
-      </div>
-      <div class="col-12 border-top py-4 text-center">
-        | copyright © 2021 <a href="https://themefisher.com/hugo-themes/">Themefisher</a> All Rights Reserved |
-      </div>
-    </div>
-  </div>
-</footer>
+
 
 <script>
   var indexURL = "https://supermonkeydesign.github.io/index.json"
