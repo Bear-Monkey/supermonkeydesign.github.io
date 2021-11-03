@@ -137,6 +137,94 @@
         
         <div class="content mb-5">
           <h3 id="5-1-自定義網站版型">5-1. 自定義網站版型</h3>
+<blockquote>
+<p>HTML 和 CSS 學習資源</p>
+</blockquote>
+<ul>
+<li><a href="https://hahow.in/courses/56189df9df7b3d0b005c6639/main">動畫互動網頁程式入門 (HTML/CSS/JS) - 吳哲宇</a></li>
+<li><a href="https://www.w3schools.com/html/">W3Schools HTML Tutorial</a></li>
+</ul>
+<h4 id="下列為讓程式碼顯示-_xxx-前空一格正確寫法不可有空格"><code>下列為讓程式碼顯示，「 &lt;_xxx&gt; 」前空一格，正確寫法不可有空格</code></h4>
+<h5 id="1-html-常見標籤">1. HTML 常見標籤</h5>
+<ul>
+<li>&lt; div&gt;、&lt; a&gt;、&lt; img&gt;</li>
+<li>&lt; div id=&ldquo;card&rdquo; &gt;&lt; /div&gt; 與 &lt; div class=&ldquo;card&rdquo; &gt;&lt; /div&gt; 差異</li>
+<li>Bootstrap Grid 功能</li>
+</ul>
+<h5 id="2-css-常見標籤">2. CSS 常見標籤</h5>
+<ul>
+<li>.card {} 和 #card {} 差異</li>
+<li>.card .card-title {} 代表意思</li>
+</ul>
+<h3 id="自訂版型修改">自訂版型修改</h3>
+<blockquote>
+<p>Themes 資料夾介紹</p>
+</blockquote>
+<ul>
+<li><strong>Themes</strong> 資料夾放置：所有 Html &amp; css 相關檔案</li>
+<li><strong>layouts</strong> 資料夾放置：Html</li>
+<li><strong>asset</strong> 資料夾放置：javascript &amp; scss</li>
+</ul>
+<blockquote>
+<p>scss &amp; css 差異：強化版、語法一樣、增加功能</p>
+</blockquote>
+<h5 id="1首頁版型程式碼修改刪除近期文章區塊">1.首頁版型程式碼修改;刪除近期文章區塊</h5>
+<ol>
+<li>開啟 layouts &gt; index.html</li>
+</ol>
+<ul>
+<li>第3行 feature post 註解下列程式碼顯示該區段</li>
+<li>第40行 recent post 註解下列程式碼顯示該區段</li>
+<li>第69行 blog post 註解下列程式碼顯示該區段</li>
+</ul>
+<ol start="2">
+<li>刪除近期文章區塊：第3行 feature post 到 第67行 feature post 程式碼刪除</li>
+</ol>
+<h5 id="2側邊欄about-me由右換置到左邊">2.側邊欄(About Me)由右換置到左邊</h5>
+<ol>
+<li>blog post 區塊，第7-9行 使用 Bootstrap 框架裡面的 Grid 功能</li>
+</ol>
+<blockquote>
+<p>1.<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p><strong>Hugo 專有語法：雙大括號 <code>{{ }}</code></strong>
+2. 第39行 sidebar 註解：第40行 為 sidebar 程式碼 {{ partial &ldquo;sidebar.html&rdquo; . }}</p>
+<blockquote>
+<p>Hugo 會載入放在 layouts 資料夾下的 partials 資料夾內的 sidebar.html 檔案 的程式碼</p>
+</blockquote>
+<ol start="3">
+<li>sidebar 段剪下，貼到 row 下方，側邊欄即右到左換置</li>
+</ol>
+<blockquote>
+<p>因運用 Bootstrap 框架的 Grid 功能，可這樣執行</p>
+</blockquote>
+<p><strong>側邊欄換置位置後，到下面<code>分類</code>頁面確認內頁是否也同步，如無，需到各別頁面的html檔內修改程式碼</strong></p>
+<h5 id="3側邊欄下分類版型修改">3.側邊欄下分類版型修改</h5>
+<ol>
+<li>themes &gt; layouts &gt;_default &gt; list.html</li>
+<li>將 sidebar 區塊程式碼剪下貼到 row 下即可</li>
+</ol>
+<h5 id="4刪除文章上的圖片區塊card">4.刪除文章上的圖片區塊<code>card</code></h5>
+<ol>
+<li>開啟 layouts &gt; index.html</li>
+<li>第17行：每篇文章均有圖片 card 區塊</li>
+</ol>
+<blockquote>
+<!-- raw HTML omitted -->
+</blockquote>
+<ol start="3">
+<li>第18行 hugo 語法，判定 Markdown 檔案中有無寫上 image 設定</li>
+</ol>
+<blockquote>
+<p>{{ if .Params.Image }}</p>
+</blockquote>
+<ol start="4">
+<li>第19行：如 Markdown 有 image 設定，則呈現圖片</li>
+</ol>
+<blockquote>
+<!-- raw HTML omitted -->
+</blockquote>
 
         </div>
 
