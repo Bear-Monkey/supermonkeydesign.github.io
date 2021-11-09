@@ -193,11 +193,11 @@
 <p>開啟 themes &gt; asstes &gt; scss &gt; about &gt; timeline.scss</p>
 </li>
 <li>
-<p>修改 第298行 width寬度</p>
+<p>修改 第296行 width寬度</p>
 </li>
 </ol>
 <blockquote>
-<p>@ media(min-width: 992px)</p>
+<p>@ media(min-width: 610px)</p>
 </blockquote>
 <h5 id="3-修改個人資訊">3. 修改個人資訊</h5>
 <ol>
@@ -213,8 +213,7 @@
 <li>第24行 內文修改</li>
 </ul>
 <blockquote>
-<p>&lt; div class=&ldquo;desc&rdquo;&gt;Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip enim cupidatat laborum dolore.<!-- raw HTML omitted -->
-&lt; /div&gt;</p>
+<p>&lt; div class=&ldquo;desc&rdquo;&gt;Lorem ipsum&hellip;dolore.</p>
 </blockquote>
 <ul>
 <li>字體修改：放大加粗 到文字標籤加上&lt; h5 &gt;</li>
@@ -225,6 +224,30 @@
 <ul>
 <li>開啟 themes &gt; assets &gt; scss &gt; timeline.html</li>
 <li>第189行desc 刪除第194-196 三行</li>
+</ul>
+<ol start="3">
+<li>主題顏色修改</li>
+</ol>
+<ul>
+<li>開啟 themes &gt; assets &gt; scss &gt; variables.scss</li>
+</ul>
+<blockquote>
+<p>此檔案稱為「變量」為 scss 額外提供之功能</p>
+</blockquote>
+<ul>
+<li>方法一：copy 顏色值貼到 timeline.css</li>
+</ul>
+<blockquote>
+<p>$primary-color: #00AAA1;</p>
+</blockquote>
+<ul>
+<li>建議使用方法二：預先定義變量 copy _variables.scss 檔案內的 <strong>$primary-color</strong> 貼到 timeline.css 第183行 <strong>.time 下 background 後</strong> 之後欲一次性修改主題顏色到 _variables.scss 裡面的這個 primary-color 的值即可</li>
+</ul>
+<blockquote>
+<p>background:$primary-color;</p>
+</blockquote>
+<ul>
+<li>將所有原藍色配色改成變量 <strong>$primary-color</strong> 主題網站顏色同步</li>
 </ul>
 
         </div>
