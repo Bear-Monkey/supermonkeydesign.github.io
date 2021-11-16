@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="單元二 在 MAC 上使用 Hugo 運行個人網站">
+  <meta name="description" content="單元三 自定義 Markdown 渲染效果 reminder">
   <meta name="author" content="Super Monkey">
   <meta name="generator" content="Hugo 0.88.1" />
 
@@ -121,94 +121,59 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         
-        <a href="/categories/set-up"
-          class="text-primary">Set up</a>
+        <a href="/categories/notes"
+          class="text-primary">Notes</a>
         
-        <h2>第二章 認識 Hugo 單元二 在MAC上使用Hugo運行個人網站</h2>
+        <h2>第五章 進階篇：客製化現有主題</h2>
         <div class="mb-3 post-meta">
           <span>By Super Monkey</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>19 October 2021</span>
+          <span>02 November 2021</span>
           
         </div>
         
-        <img src="https://supermonkeydesign.github.io/images/post/post-2.jpg" class="img-fluid w-100 mb-4" alt="第二章 認識 Hugo 單元二 在MAC上使用Hugo運行個人網站">
+        <img src="https://supermonkeydesign.github.io/images/post/post-3.jpg" class="img-fluid w-100 mb-4" alt="第五章 進階篇：客製化現有主題">
         
         <div class="content mb-5">
-          <h4 id="2-2-在-mac-上使用-hugo-運行個人網站">2-2. 在 MAC 上使用 Hugo 運行個人網站</h4>
+          <h3 id="5-3--自定義-markdown-渲染效果-reminder">5-3.  自定義 Markdown 渲染效果 reminder</h3>
 <blockquote>
-<p>安裝教學：MAC 單元2-2 / PC 單元2-3</p>
+<p>自定義文章內容的 css 樣式的時候，css 樣式的影響範圍縮小。例如：liva-hugo 主題，所有的 Markdown 文章內容，放至 content 的 div 裡面。在自定義 Markdown 的渲染效果的時候
+最好在前面加上一個 .content，這樣 css 改動 才不會影響到個人網站的其他地方！</p>
 </blockquote>
-<p><strong>先安裝 Homebrew 套件支援 Hugo，才能再安裝 Hugo</strong></p>
-<h5 id="1homebrew-mac-版安裝">1.Homebrew Mac 版安裝</h5>
-<ol>
-<li>網路搜尋「mac brew」</li>
-</ol>
+<p>1.文章呈現寬度修改</p>
+<ul>
+<li>開啟 themes &gt; layouts &gt; _default &gt; single.html</li>
+<li>Bootstrap 框架的 Grid 功能</li>
+</ul>
 <blockquote>
-<p>macOS 缺少套件的管理工具 - Homebrew (<a href="https://brew.sh/index_zh-tw">https://brew.sh/index_zh-tw</a>)</p>
+<p>&lt; div class=&ldquo;container&rdquo;&gt;
+&lt; div class=&ldquo;row&rdquo;&gt;
+&lt; div class=&ldquo;col-lg-8 mx-auto&rdquo;&gt;
+<strong>改成 &lt; div class=&ldquo;col-lg-10 mx-auto&rdquo;&gt;</strong></p>
 </blockquote>
-<ol start="2">
-<li>執行 Homebrew : 複製頁面程式碼貼至終端機</li>
-</ol>
+<p>2.標題呈現修改</p>
+<ul>
+<li>開啟 themes &gt; assets &gt; scss &gt; templates &gt; _main.scss</li>
+<li>第 231 行起 /* markdown style */，為設定 Markdown 文章的渲染效果</li>
+<li>.content 的 class 裡面加上一行 font-family 的設定</li>
+</ul>
 <blockquote>
-<p>/bin/bash -c &ldquo;$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)%22">https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;</a></p>
+<p>.content {</p>
 </blockquote>
-<p><strong>安裝成功顯示 : Installation successfu!</strong></p>
-<h5 id="2安裝-hugo">2.安裝 Hugo</h5>
-<ol>
-<li>
-<p>mac 安裝教學 : Hugo 網站下方複製 mac 程式碼貼到終端機執行<code>brew install hugo</code></p>
-</li>
-<li>
-<p>貼到終端機執行， 即安裝 hugo</p>
-</li>
-</ol>
-<h5 id="3homebrew-安裝後輸入hugo-version">3.Homebrew 安裝後輸入：<code>hugo version</code></h5>
-<p><strong>安裝成功顯示：Hugo Static Site Generator</strong></p>
-<h5 id="4-下載-hugo-主題">4. 下載 Hugo 主題</h5>
-<p>[Hugo Themes] (<a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>)</p>
-<ol>
-<li>
-<p>下載主題 Livs Hugo</p>
-</li>
-<li>
-<p>解壓 livs-hugo-master，內「exampleSite」檔案夾拉到桌面</p>
-</li>
-<li>
-<p>exampleSite 內新增「Themes」檔案夾</p>
-</li>
-</ol>
-<blockquote>
-<p>新增檔案夾務必要叫「Themes」</p>
-</blockquote>
-<ol start="4">
-<li>
-<p>回到下載內將「livs-hugo-master」移至，桌面「exampleSite」內「Themes」檔案夾</p>
-</li>
-<li>
-<p>「Themes」內「livs-hugo-master」刪掉「master」</p>
-</li>
-</ol>
-<h5 id="5-在電腦上運行個人網站">5. 在電腦上運行個人網站</h5>
-<ol>
-<li>
-<p>桌面檔案夾「exampleSite」右鍵選擇 <code>「新增位於檔案夾位置的終端機視窗」</code></p>
-</li>
-<li>
-<p>每異動務必至終端機輸入：<code>hugo server</code></p>
-</li>
-<li>
-<p>終端機複製產出連結，貼至網站即可</p>
-</li>
-</ol>
-<blockquote>
-<p>Web Server is available at <code>http://localhost:1313/</code> (bind address 127.0.0.1)
-Press Ctrl+C to stop</p>
-</blockquote>
-<blockquote>
-<p>終止hugo運行，到終端機：<code>輸入 Ctrl+C</code> 或直接關掉</p>
-</blockquote>
+<ul>
+<li>{
+font-family:sans-serif;
+margin-bottom: 20px;
+}
+<em>如要另外載入建議使用 google fonts</em></li>
+</ul>
+<p>3.google fonts 使用方法</p>
+<ul>
+<li>搜尋 <a href="https://fonts.google.com/?query=flower">google fonts</a></li>
+<li>進入後範例：搜尋 flower</li>
+<li>點擊字型，進入後再點擊右邊 Selected family</li>
+</ul>
 
         </div>
 
