@@ -179,11 +179,66 @@ margin-bottom: 20px;
 <p>@import url(&lsquo;<a href="https://fonts.googleapis.com/css2?family=Indie+Flower&amp;display=swap');">https://fonts.googleapis.com/css2?family=Indie+Flower&amp;display=swap');</a></p>
 </blockquote>
 <ul>
-<li>copy 右下 css  貼到 VS Code <strong>font-family:Indie Flower</strong></li>
+<li>copy 右下 css  貼到 VS Code <strong>font-family:&lsquo;Indie Flower&rsquo;</strong></li>
 </ul>
 <blockquote>
 <p>font-family: &lsquo;Indie Flower&rsquo;, cursive;</p>
 </blockquote>
+<p>4.符號換置</p>
+<ul>
+<li>搜尋<a href="http://blog.neten.de/posts/333">utf8 符號</a></li>
+<li>copy 欲換置的符號</li>
+<li>VS Code 將符號貼換置到 第263行 內</li>
+</ul>
+<blockquote>
+<p>content: &ldquo;<em>\e71b</em>&quot;;</p>
+</blockquote>
+<ol start="5">
+<li>Markdown 的渲染效果設定</li>
+</ol>
+<blockquote>
+<p>程式碼修改：需從 Hugo 設定檔修改而非一般改css</p>
+</blockquote>
+<ul>
+<li>到[hugo]網站(<a href="https://gohugo.io/">https://gohugo.io/</a>)</li>
+<li>Search the Docs 輸入 <a href="https://gohugo.io/getting-started/configuration-markup#readout">markup</a></li>
+<li>點擊右邊 <a href="https://gohugo.io/getting-started/configuration-markup#highlight">Highlight</a></li>
+<li>copy <strong>toml</strong> 的程式碼</li>
+</ul>
+<blockquote>
+<p>[markup]
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = '&rsquo;
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = &lsquo;monokai&rsquo;
+tabWidth = 4</p>
+</blockquote>
+<ul>
+<li>開啟 VS Code 設定檔 config.toml</li>
+<li>將 code 貼到最下面後，刪除只留下</li>
+</ul>
+<blockquote>
+<p>[markup.highlight]
+style = &lsquo;monokai&rsquo;</p>
+</blockquote>
+<ul>
+<li>
+<p>Hugo 網站 <a href="https://gohugo.io/getting-started/configuration-markup#highlight">Highlight</a>
+＊ [Highlight]支持程式碼
+<a href="https://xyproto.github.io/splash/docs/all.html">Short snippets</a>
+<a href="https://xyproto.github.io/splash/docs/longer/all.html">Long snippets</a></p>
+</li>
+<li>
+<p>選擇要得樣式回到 config.toml 將 style = &lsquo;api&rsquo; 換置樣式名稱 即可</p>
+</li>
+</ul>
 
         </div>
 
