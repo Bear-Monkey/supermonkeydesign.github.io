@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-tw"><head>
   <meta charset="utf-8">
-  <title>Welcome~超級猴子設計實驗室</title>
+  <title>Sindy&#39;s Blog</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="單元一 自定義網站版型">
-  <meta name="author" content="Super Monkey">
+  <meta name="author" content="Sindy&#39;s Blog">
   <meta name="generator" content="Hugo 0.88.1" />
 
   <!-- plugins -->
@@ -59,7 +59,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
       <a class="navbar-brand mobile-view" href="https://supermonkeydesign.github.io"><img class="img-fluid"
-          src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Welcome~超級猴子設計實驗室"></a>
+          src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Sindy&#39;s Blog"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
@@ -69,22 +69,18 @@
           <ul class="navbar-nav mr-auto">
             
             <li class="nav-item">
-              <a class="nav-link" href="https://www.instagram.com/sm2021design/"><i class="ti-instagram"></i></a>
+              <a class="nav-link" href="https://sxs-design.web.app/"><i class="ti-link"></i></a>
             </li>
             
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/supermonkeydesign"><i class="ti-github"></i></a>
             </li>
             
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.behance.net/SxS-sindy528"><i class="bi-behance"></i></a>
-            </li>
-            
           </ul>
         </div>
 
         <a class="navbar-brand mx-auto desktop-view" href="https://supermonkeydesign.github.io"><img class="img-fluid"
-            src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Welcome~超級猴子設計實驗室"></a>
+            src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Sindy&#39;s Blog"></a>
 
         <ul class="navbar-nav">
           
@@ -121,12 +117,12 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         
-        <a href="/categories/notes"
-          class="text-primary">Notes</a>
+        <a href="/categories/%e7%ad%86%e8%a8%98"
+          class="text-primary">筆記</a>
         
         <h2>第五章 進階篇：客製化現有主題</h2>
         <div class="mb-3 post-meta">
-          <span>By Super Monkey</span>
+          <span>By Sindy&#39;s Blog</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
           <span>02 November 2021</span>
@@ -173,34 +169,36 @@
 <li>開啟 layouts &gt; index.html</li>
 </ol>
 <ul>
-<li>第3行 feature post 註解下列程式碼顯示該區段</li>
-<li>第40行 recent post 註解下列程式碼顯示該區段</li>
-<li>第69行 blog post 註解下列程式碼顯示該區段</li>
+<li>第 3 行 feature post 註解下列程式碼顯示該區段</li>
+<li>第 40 行 recent post 註解下列程式碼顯示該區段</li>
+<li>第 69 行 blog post 註解下列程式碼顯示該區段</li>
 </ul>
 <ol start="2">
-<li>刪除近期文章區塊：第3行 feature post 到 第67行 feature post 程式碼刪除</li>
+<li>刪除近期文章區塊：第 3 行 feature post 到 第 67 行 feature post 程式碼刪除</li>
 </ol>
 <h5 id="2側邊欄about-me由右換置到左邊">2.側邊欄(About Me)由右換置到左邊</h5>
 <ol>
-<li>blog post 區塊，第7-9行 使用 Bootstrap 框架裡面的 Grid 功能</li>
+<li>blog post 區塊，第 7-9 行 使用 Bootstrap 框架裡面的 Grid 功能
+<blockquote>
+<p>第 7 行 &lt; div class=&ldquo;container&rdquo;&gt;</p>
+</blockquote>
+</li>
 </ol>
 <blockquote>
-<p>第7行 &lt; div class=&ldquo;container&rdquo;&gt;</p>
+<p>第 8 行 &lt; div class=&ldquo;row&rdquo;&gt;</p>
 </blockquote>
 <blockquote>
-<p>第8行 &lt; div class=&ldquo;row&rdquo;&gt;</p>
-</blockquote>
-<blockquote>
-<p>第9行 &lt; div class=&ldquo;col-lg-8 mb-5 mb-lg-0&rdquo;&gt;</p>
+<p>第 9 行 &lt; div class=&ldquo;col-lg-8 mb-5 mb-lg-0&rdquo;&gt;</p>
 </blockquote>
 <p><strong>Hugo 專有語法：雙大括號 <code>{{ }}</code></strong></p>
 <ol>
-<li>第39行 sidebar 註解</li>
-<li>第40行 為 sidebar 程式碼</li>
-</ol>
+<li>第 39 行 sidebar 註解</li>
+<li>第 40 行 為 sidebar 程式碼
 <blockquote>
 <p>{{ partial &ldquo;sidebar.html&rdquo; . }}</p>
 </blockquote>
+</li>
+</ol>
 <blockquote>
 <p>Hugo 會載入放在 layouts 資料夾下的 partials 資料夾內的 sidebar.html 檔案 的程式碼</p>
 </blockquote>
@@ -209,7 +207,7 @@
 </ol>
 <ul>
 <li>因運用 Bootstrap 框架的 Grid 功能，可這樣執行</li>
-<li>側邊欄換置位置後，到下面 <code>分類</code>頁面確認內頁是否也同步，如無，需到各別頁面的html檔內修改程式碼</li>
+<li>側邊欄換置位置後，到下面 <code>分類</code>頁面確認內頁是否也同步，如無，需到各別頁面的 html 檔內修改程式碼</li>
 </ul>
 <h5 id="3側邊欄下分類版型修改">3.側邊欄下分類版型修改</h5>
 <ol>
@@ -218,40 +216,44 @@
 </ol>
 <h5 id="4刪除文章上的圖片區塊-card">4.刪除文章上的圖片區塊 <code>card</code></h5>
 <ol>
-<li>開啟 layouts &gt; index.html</li>
-</ol>
+<li>
+<p>開啟 layouts &gt; index.html</p>
 <blockquote>
 <p>&lt; article class=&ldquo;card&rdquo;&gt;</p>
 </blockquote>
-<ol start="2">
-<li>刪除第18-20行程式碼，即完成刪除文章上的圖檔</li>
+</li>
+<li>
+<p>刪除第 18-20 行程式碼，即完成刪除文章上的圖檔</p>
+</li>
 </ol>
 <ul>
-<li>第18行 hugo 語法，判定 Markdown 檔案中有無寫上 image 設定</li>
-</ul>
+<li>
+<p>第 18 行 hugo 語法，判定 Markdown 檔案中有無寫上 image 設定</p>
 <blockquote>
 <p>{{ if .Params.Image }}</p>
 </blockquote>
-<ul>
-<li>第19行：如 Markdown 有 image 設定，則呈現圖片</li>
-</ul>
+</li>
+<li>
+<p>第 19 行：如 Markdown 有 image 設定，則呈現圖片</p>
 <blockquote>
 <p>&lt; img src=&quot;{{ .Params.Image | absURL }}&quot; class=&ldquo;card-img-top&rdquo; alt=&quot;{{ .Title | markdownify }}&quot;&gt;</p>
 </blockquote>
-<ul>
-<li>第20行 結尾</li>
-</ul>
+</li>
+<li>
+<p>第 20 行 結尾</p>
 <blockquote>
 <p>{{ end }}</p>
 </blockquote>
+</li>
+</ul>
 <h5 id="5-日期顯示修改預設為英文月份--數字年">5. 日期顯示修改，預設為：英文月份 / 數字年</h5>
 <ol>
-<li>第29行 .PublishDate.Format，後面為呈現模式</li>
-</ol>
+<li>
+<p>第 29 行 .PublishDate.Format，後面為呈現模式</p>
 <blockquote>
 <p>{{ .PublishDate.Format &ldquo;02 January 2006&rdquo; }}</p>
 </blockquote>
-<ol start="2">
+</li>
 <li>
 <p>開啟 Hugo 網站搜尋 <a href="https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference">hugo date</a></p>
 </li>
@@ -260,77 +262,82 @@
 </li>
 <li>
 <p>於 hugo 上 copy 要換置的日期格式，換置即可</p>
-</li>
-</ol>
 <blockquote>
 <p>{{ .PublishDate.Format <code>&quot;2006-01-02&quot;</code> }}</p>
 </blockquote>
+</li>
+</ol>
 <h5 id="6文章簡介自定義修改">6.文章簡介自定義修改</h5>
-<p>每篇文章簡介顯示為文章前段內容，修改成 第10行 description 簡介</p>
+<p>每篇文章簡介顯示為文章前段內容，修改成 第 10 行 description 簡介</p>
 <ol>
 <li>開啟 themes &gt; layouts &gt;_default &gt; index.html</li>
-<li>第32行 .Summary 改成 .Description</li>
-</ol>
+<li>第 32 行 .Summary 改成 .Description
 <blockquote>
 <p>&lt; p class=&ldquo;card-text&rdquo;&gt;{{ .Summary }}<!-- raw HTML omitted --></p>
 </blockquote>
+</li>
+</ol>
 <blockquote>
 <p>&lt; p class=&ldquo;card-text&rdquo;&gt;{{ .Description }}<!-- raw HTML omitted --></p>
 </blockquote>
-<p><strong>首頁 index.html 改動後，內頁 list.html 也需更動</strong>
-3. 開啟 themes &gt; layouts &gt;_default &gt; list.html</p>
+<p><strong>首頁 index.html 改動後，內頁 list.html 也需更動</strong> 3. 開啟 themes &gt; layouts &gt;_default &gt; list.html</p>
 <ol start="4">
-<li>第14行，載入</li>
-</ol>
+<li>
+<p>第 14 行，載入</p>
 <blockquote>
 <p>{{ .Render &ldquo;post&rdquo; }}</p>
 </blockquote>
-<ol start="5">
+</li>
 <li>
 <p>開啟文章設定檔 themes &gt; layouts &gt;_default &gt; post.html</p>
 </li>
 <li>
-<p>第16行 日期格式更動與首頁一致</p>
-</li>
-</ol>
+<p>第 16 行 日期格式更動與首頁一致</p>
 <blockquote>
 <p>{{ .PublishDate.Format &ldquo;02 January 2006&rdquo; }}</p>
 </blockquote>
-<ol start="7">
-<li>第19行 文章簡介顯示，更動與首頁一致</li>
-</ol>
+</li>
+<li>
+<p>第 19 行 文章簡介顯示，更動與首頁一致</p>
 <blockquote>
 <!-- raw HTML omitted -->
 </blockquote>
+</li>
+</ol>
 <blockquote>
 <!-- raw HTML omitted -->
 </blockquote>
 <h5 id="7-刪除側邊欄下方-ad-banner-廣告預留位置">7. 刪除側邊欄下方 AD Banner 廣告預留位置</h5>
 <ol>
 <li>開啟 layouts &gt; partials &gt; sidebar.html</li>
-<li>第 53 行註解，如有申請 Google AdSense 可於此設置</li>
-</ol>
+<li>第 53 行註解，如有申請 Google AdSense 可於此設置
 <blockquote>
 <p>&lt; !&ndash; advertisement &ndash;&gt;</p>
 </blockquote>
-<ol start="3">
+</li>
 <li>將 advertisement 區塊移除 即不呈現廣告</li>
 </ol>
 <h5 id="8-刪除網頁下方資訊欄-footer">8. 刪除網頁下方資訊欄 <code>footer</code></h5>
 <p><strong>如程式碼中找不到區塊，回到網頁右鍵查詢</strong></p>
 <ol>
-<li>開啟 themes &gt; layouts &gt;_default &gt; index.html</li>
-<li>VS Cond 左邊搜尋 <code>&lt;footer&gt;</code></li>
-<li>開啟 themes &gt; layouts &gt;_default &gt; baseof.html</li>
-</ol>
+<li>
+<p>開啟 themes &gt; layouts &gt;_default &gt; index.html</p>
+</li>
+<li>
+<p>VS Cond 左邊搜尋 <code>&lt;footer&gt;</code></p>
+</li>
+<li>
+<p>開啟 themes &gt; layouts &gt;_default &gt; baseof.html</p>
 <blockquote>
 <p>{{- partial &ldquo;footer.html&rdquo; . -}}</p>
 </blockquote>
-<ol start="4">
-<li>開啟 themes &gt; layouts &gt; partials &gt; footer.html</li>
+</li>
+<li>
+<p>開啟 themes &gt; layouts &gt; partials &gt; footer.html</p>
+</li>
 </ol>
 <ul>
-<li>第23-83行 footer 區塊刪除</li>
+<li>第 23-83 行 footer 區塊刪除</li>
 </ul>
 
         </div>
@@ -349,7 +356,7 @@
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "super-monkey" + '.disqus.com/embed.js';
+        s.src = '//' + "Super Monkey" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();

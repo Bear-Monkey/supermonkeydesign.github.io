@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-tw"><head>
   <meta charset="utf-8">
-  <title>Welcome~超級猴子設計實驗室</title>
+  <title>Sindy&#39;s Blog</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="單元三 自定義 Markdown 渲染效果 reminder">
-  <meta name="author" content="Super Monkey">
+  <meta name="author" content="Sindy&#39;s Blog">
   <meta name="generator" content="Hugo 0.88.1" />
 
   <!-- plugins -->
@@ -59,7 +59,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
       <a class="navbar-brand mobile-view" href="https://supermonkeydesign.github.io"><img class="img-fluid"
-          src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Welcome~超級猴子設計實驗室"></a>
+          src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Sindy&#39;s Blog"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
@@ -69,22 +69,18 @@
           <ul class="navbar-nav mr-auto">
             
             <li class="nav-item">
-              <a class="nav-link" href="https://www.instagram.com/sm2021design/"><i class="ti-instagram"></i></a>
+              <a class="nav-link" href="https://sxs-design.web.app/"><i class="ti-link"></i></a>
             </li>
             
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/supermonkeydesign"><i class="ti-github"></i></a>
             </li>
             
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.behance.net/SxS-sindy528"><i class="bi-behance"></i></a>
-            </li>
-            
           </ul>
         </div>
 
         <a class="navbar-brand mx-auto desktop-view" href="https://supermonkeydesign.github.io"><img class="img-fluid"
-            src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Welcome~超級猴子設計實驗室"></a>
+            src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Sindy&#39;s Blog"></a>
 
         <ul class="navbar-nav">
           
@@ -121,12 +117,12 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         
-        <a href="/categories/notes"
-          class="text-primary">Notes</a>
+        <a href="/categories/%e7%ad%86%e8%a8%98"
+          class="text-primary">筆記</a>
         
         <h2>第五章 進階篇：客製化現有主題</h2>
         <div class="mb-3 post-meta">
-          <span>By Super Monkey</span>
+          <span>By Sindy&#39;s Blog</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
           <span>02 November 2021</span>
@@ -136,99 +132,127 @@
         <img src="https://supermonkeydesign.github.io/images/post/post-3.jpg" class="img-fluid w-100 mb-4" alt="第五章 進階篇：客製化現有主題">
         
         <div class="content mb-5">
-          <h3 id="5-3--自定義-markdown-渲染效果-reminder">5-3.  自定義 Markdown 渲染效果 reminder</h3>
+          <h3 id="5-3-自定義-markdown-渲染效果-reminder">5-3. 自定義 Markdown 渲染效果 reminder</h3>
 <blockquote>
 <p>自定義文章內容的 css 樣式的時候，css 樣式的影響範圍縮小。例如：liva-hugo 主題，所有的 Markdown 文章內容，放至 content 的 div 裡面。在自定義 Markdown 的渲染效果的時候
 最好在前面加上一個 .content，這樣 css 改動 才不會影響到個人網站的其他地方！</p>
 </blockquote>
 <p>1.文章呈現寬度修改</p>
 <ul>
-<li>開啟 themes &gt; layouts &gt; _default &gt; single.html</li>
-<li>Bootstrap 框架的 Grid 功能</li>
-</ul>
+<li>
+<p>開啟 themes &gt; layouts &gt; _default &gt; single.html</p>
+</li>
+<li>
+<p>Bootstrap 框架的 Grid 功能</p>
 <blockquote>
 <p>&lt; div class=&ldquo;container&rdquo;&gt;
 &lt; div class=&ldquo;row&rdquo;&gt;
 &lt; div class=&ldquo;col-lg-8 mx-auto&rdquo;&gt;
-<strong>改成 &lt; div class=&ldquo;col-lg-10 mx-auto&rdquo;&gt;</strong></p>
+<strong>改成 &lt; div class=&ldquo;col-lg-10 mx-auto&rdquo;&gt;</strong> 2.標題呈現修改</p>
 </blockquote>
-<p>2.標題呈現修改</p>
-<ul>
-<li>開啟 themes &gt; assets &gt; scss &gt; templates &gt; _main.scss</li>
-<li>第 231 行起 /* markdown style */，為設定 Markdown 文章的渲染效果</li>
-<li>.content 的 class 裡面加上一行 font-family 的設定</li>
-</ul>
+</li>
+<li>
+<p>開啟 themes &gt; assets &gt; scss &gt; templates &gt; _main.scss</p>
+</li>
+<li>
+<p>第 231 行起 /_ markdown style _/，為設定 Markdown 文章的渲染效果</p>
+</li>
+<li>
+<p>.content 的 class 裡面加上一行 font-family 的設定</p>
 <blockquote>
 <p>.content {</p>
 </blockquote>
 <ul>
-<li>{
+<li>
+<p>{
 font-family:sans-serif;
 margin-bottom: 20px;
 }
-<em>如要另外載入建議使用 google fonts</em></li>
-</ul>
+<em>如要另外載入建議使用 google fonts</em></p>
 <p>3.google fonts 使用方法</p>
-<ul>
-<li>搜尋 <a href="https://fonts.google.com/?query=flower">google fonts</a></li>
-<li>進入後範例：搜尋 flower</li>
-<li>點擊字型，進入後再點擊右邊 Selected family</li>
-<li>copy 右邊 @import 的 style 增加貼到 VS Code <strong>.content</strong> 上</li>
+</li>
 </ul>
+</li>
+<li>
+<p>搜尋 <a href="https://fonts.google.com/?query=flower">google fonts</a></p>
+</li>
+<li>
+<p>進入後範例：搜尋 flower</p>
+</li>
+<li>
+<p>點擊字型，進入後再點擊右邊 Selected family</p>
+</li>
+<li>
+<p>copy 右邊 @import 的 style 增加貼到 VS Code <strong>.content</strong> 上</p>
 <blockquote>
 <p>@import url(&lsquo;<a href="https://fonts.googleapis.com/css2?family=Indie+Flower&amp;display=swap');">https://fonts.googleapis.com/css2?family=Indie+Flower&amp;display=swap');</a></p>
 </blockquote>
-<ul>
-<li>copy 右下 css  貼到 VS Code <strong>font-family:&lsquo;Indie Flower&rsquo;</strong></li>
-</ul>
+</li>
+<li>
+<p>copy 右下 css 貼到 VS Code <strong>font-family:&lsquo;Indie Flower&rsquo;</strong></p>
 <blockquote>
 <p>font-family: &lsquo;Indie Flower&rsquo;, cursive;</p>
 </blockquote>
 <p>4.符號換置</p>
-<ul>
-<li>搜尋<a href="http://blog.neten.de/posts/333">utf8 符號</a></li>
-<li>copy 欲換置的符號</li>
-<li>VS Code 將符號貼換置到 第263行 內</li>
-</ul>
+</li>
+<li>
+<p>搜尋<a href="http://blog.neten.de/posts/333">utf8 符號</a></p>
+</li>
+<li>
+<p>copy 欲換置的符號</p>
+</li>
+<li>
+<p>VS Code 將符號貼換置到 第 263 行 內</p>
 <blockquote>
 <p>content: &ldquo;<em>\e71b</em>&quot;;</p>
 </blockquote>
-<ol start="5">
-<li>Markdown 的渲染效果設定</li>
-</ol>
-<blockquote>
-<p>程式碼修改：需從 Hugo 設定檔修改而非一般改css</p>
-</blockquote>
-<ul>
-<li>到[hugo]網站(<a href="https://gohugo.io/">https://gohugo.io/</a>)</li>
-<li>Search the Docs 輸入 <a href="https://gohugo.io/getting-started/configuration-markup#readout">markup</a></li>
-<li>點擊右邊 <a href="https://gohugo.io/getting-started/configuration-markup#highlight">Highlight</a></li>
-<li>copy <strong>toml</strong> 的程式碼</li>
+</li>
 </ul>
+<ol start="5">
+<li>Markdown 的渲染效果設定
 <blockquote>
-<p>[markup]
-[markup.highlight]
-anchorLineNos = false
+<p>程式碼修改：需從 Hugo 設定檔修改而非一般改 css</p>
+</blockquote>
+</li>
+</ol>
+<ul>
+<li>
+<p>到[hugo]網站(<a href="https://gohugo.io/">https://gohugo.io/</a>)</p>
+</li>
+<li>
+<p>Search the Docs 輸入 <a href="https://gohugo.io/getting-started/configuration-markup#readout">markup</a></p>
+</li>
+<li>
+<p>點擊右邊 <a href="https://gohugo.io/getting-started/configuration-markup#highlight">Highlight</a></p>
+</li>
+<li>
+<p>copy <strong>toml</strong> 的程式碼</p>
+<blockquote>
+<p>[markup] &gt; [markup.highlight]</p>
+</blockquote>
+<pre><code>anchorLineNos = false
 codeFences = true
 guessSyntax = false
-hl_Lines = '&rsquo;
+hl_Lines = ''
 lineAnchors = ''
 lineNoStart = 1
 lineNos = false
 lineNumbersInTable = true
 noClasses = true
-style = &lsquo;monokai&rsquo;
-tabWidth = 4</p>
-</blockquote>
-<ul>
-<li>開啟 VS Code 設定檔 config.toml</li>
-<li>將 code 貼到最下面後，刪除只留下</li>
-</ul>
+style = 'monokai'
+tabWidth = 4
+</code></pre>
+</li>
+<li>
+<p>開啟 VS Code 設定檔 config.toml</p>
+</li>
+<li>
+<p>將 code 貼到最下面後，刪除只留下</p>
 <blockquote>
 <p>[markup.highlight]
 style = &lsquo;monokai&rsquo;</p>
 </blockquote>
-<ul>
+</li>
 <li>
 <p>Hugo 網站 <a href="https://gohugo.io/getting-started/configuration-markup#highlight">Highlight</a>
 ＊ [Highlight]支持程式碼
@@ -256,7 +280,7 @@ style = &lsquo;monokai&rsquo;</p>
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "super-monkey" + '.disqus.com/embed.js';
+        s.src = '//' + "Super Monkey" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-tw"><head>
   <meta charset="utf-8">
-  <title>Welcome~超級猴子設計實驗室</title>
+  <title>Sindy&#39;s Blog</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="單元二 添加評論功能">
-  <meta name="author" content="Super Monkey">
+  <meta name="author" content="Sindy&#39;s Blog">
   <meta name="generator" content="Hugo 0.88.1" />
 
   <!-- plugins -->
@@ -59,7 +59,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
       <a class="navbar-brand mobile-view" href="https://supermonkeydesign.github.io"><img class="img-fluid"
-          src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Welcome~超級猴子設計實驗室"></a>
+          src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Sindy&#39;s Blog"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
@@ -69,22 +69,18 @@
           <ul class="navbar-nav mr-auto">
             
             <li class="nav-item">
-              <a class="nav-link" href="https://www.instagram.com/sm2021design/"><i class="ti-instagram"></i></a>
+              <a class="nav-link" href="https://sxs-design.web.app/"><i class="ti-link"></i></a>
             </li>
             
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/supermonkeydesign"><i class="ti-github"></i></a>
             </li>
             
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.behance.net/SxS-sindy528"><i class="bi-behance"></i></a>
-            </li>
-            
           </ul>
         </div>
 
         <a class="navbar-brand mx-auto desktop-view" href="https://supermonkeydesign.github.io"><img class="img-fluid"
-            src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Welcome~超級猴子設計實驗室"></a>
+            src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Sindy&#39;s Blog"></a>
 
         <ul class="navbar-nav">
           
@@ -121,12 +117,12 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         
-        <a href="/categories/set-up"
-          class="text-primary">Set up</a>
+        <a href="/categories/%e7%ad%86%e8%a8%98"
+          class="text-primary">筆記</a>
         
         <h2>第四章 展示你的個人網站 單元二 添加評論功能</h2>
         <div class="mb-3 post-meta">
-          <span>By Super Monkey</span>
+          <span>By Sindy&#39;s Blog</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
           <span>28 October 2021</span>
@@ -150,19 +146,21 @@
 <h5 id="3hugo-網站搜尋disqus">3.Hugo 網站搜尋「Disqus」</h5>
 <p>(<a href="https://gohugo.io/templates/internal#disqus">https://gohugo.io/templates/internal#disqus</a>)</p>
 <ol>
-<li>複製 Use the Disqus Template 下的程式碼</li>
-</ol>
+<li>
+<p>複製 Use the Disqus Template 下的程式碼</p>
 <blockquote>
 <p>{{ template &ldquo;_internal/disqus.html&rdquo; . }}</p>
 </blockquote>
-<ol start="2">
-<li>檔案夾「Themes」&gt;「layouts」&gt;「default」&gt; single.html</li>
-</ol>
+</li>
+<li>
+<p>檔案夾「Themes」&gt;「layouts」&gt;「default」&gt; single.html</p>
 <blockquote>
 <p>「layouts」html 程式碼檔案 / 「default」html 文章程式碼</p>
 </blockquote>
-<ol start="3">
-<li>到 <!-- raw HTML omitted --> 下貼上程式碼</li>
+</li>
+<li>
+<p>到 <!-- raw HTML omitted --> 下貼上程式碼</p>
+</li>
 </ol>
 <blockquote>
 <p>部分主題如找不到此檔案，需到「layouts &gt; default &gt; single.html 」自行搜索</p>
@@ -177,20 +175,22 @@
 <!-- raw HTML omitted -->
 <ol start="4">
 <li>VS Code 開啟 config.toml</li>
-<li>將 Disqus 的帳號填入</li>
-</ol>
+<li>將 Disqus 的帳號填入
 <blockquote>
 <p>disqusShortname = &ldquo;super-monkey&rdquo;</p>
 </blockquote>
+</li>
+</ol>
 <h5 id="2disqus-驗證申請成功">2.Disqus 驗證申請成功</h5>
 <ol>
 <li>開啟終端機 &gt; hugo server</li>
-<li>文章下方出現字樣，即表示設定完成</li>
-</ol>
+<li>文章下方出現字樣，即表示設定完成
 <blockquote>
 <p>Disqus comments not available by default when the website is previewed locally.
 comments powered by Disqus</p>
 </blockquote>
+</li>
+</ol>
 <h5 id="3disqus-上傳至-github-page">3.Disqus 上傳至 Github page</h5>
 <ol>
 <li>關閉終端機 &gt; control + D</li>
@@ -220,7 +220,7 @@ comments powered by Disqus</p>
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "super-monkey" + '.disqus.com/embed.js';
+        s.src = '//' + "Super Monkey" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();

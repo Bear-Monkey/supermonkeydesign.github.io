@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Figme on Sindy&#39;s Blog</title>
+    <link>https://supermonkeydesign.github.io/tags/figme/</link>
+    <description>Recent content in Figme on Sindy&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 02 Nov 2021 21:07:47 +0800</lastBuildDate><atom:link href="https://supermonkeydesign.github.io/tags/figme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第五章 進階篇：客製化現有主題</title>
+      <link>https://supermonkeydesign.github.io/blog/post5-1/</link>
+      <pubDate>Tue, 02 Nov 2021 21:07:47 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post5-1/</guid>
+      <description>5-1. 自定義網站版型  HTML 和 CSS 學習資源
+  動畫互動網頁程式入門 (HTML/CSS/JS) - 吳哲宇 W3Schools HTML Tutorial  下列為讓程式碼顯示，「 &amp;lt;_xxx&amp;gt; 」前空一格，正確寫法不可有空格 1.</description>
+    </item>
+    
+    <item>
+      <title>第五章 進階篇：客製化現有主題</title>
+      <link>https://supermonkeydesign.github.io/blog/post5-2/</link>
+      <pubDate>Tue, 02 Nov 2021 21:07:47 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post5-2/</guid>
+      <description>5-2. 創造靈活度!增添新的元件吧！  個人經歷時間軸   開啟 themes &amp;gt; layouts &amp;gt; about &amp;gt; list.</description>
+    </item>
+    
+    <item>
+      <title>第五章 進階篇：客製化現有主題</title>
+      <link>https://supermonkeydesign.github.io/blog/post5-3/</link>
+      <pubDate>Tue, 02 Nov 2021 21:07:47 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post5-3/</guid>
+      <description>5-3. 自定義 Markdown 渲染效果 reminder  自定義文章內容的 css 樣式的時候，css 樣式的影響範圍縮小。例如：liva-hugo 主題，所有的 Markdown 文章內容，放至 content 的 div 裡面。在自定義 Markdown 的渲染效果的時候 最好在前面加上一個 .</description>
+    </item>
+    
+    <item>
+      <title>第四章 展示你的個人網站 單元五 聊聊 Google AdSense</title>
+      <link>https://supermonkeydesign.github.io/blog/post4-5/</link>
+      <pubDate>Tue, 02 Nov 2021 12:07:47 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post4-5/</guid>
+      <description>4-5. 聊聊 Google AdSense 利用網站呈現的廣告賺取 Google 廣告流量費
+網站 用 Google AdSense 與 Google 簽約。</description>
+    </item>
+    
+    <item>
+      <title>第四章 展示你的個人網站 單元四 添加 Google Search Console</title>
+      <link>https://supermonkeydesign.github.io/blog/post4-4/</link>
+      <pubDate>Tue, 02 Nov 2021 10:07:47 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post4-4/</guid>
+      <description>4-4.添加 Google Search Console Sitemap 介紹 Sitemap 指個人網站地圖，上傳至 Google Search Console。 Google 知道個人網站所有頁面後，存至 Google 搜尋引擎裡面，在 Google 上搜尋時 就能找到你的個人網站。</description>
+    </item>
+    
+    <item>
+      <title>第四章 展示你的個人網站 單元三 添加 Google Analytics</title>
+      <link>https://supermonkeydesign.github.io/blog/post4-3/</link>
+      <pubDate>Mon, 01 Nov 2021 10:07:47 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post4-3/</guid>
+      <description>4-3.添加 Google Analytics 1.安裝 Google Analytics  網站搜尋 Google Analytics 登入 Google 帳號   https://accounts.</description>
+    </item>
+    
+    <item>
+      <title>第四章 展示你的個人網站 單元二 添加評論功能</title>
+      <link>https://supermonkeydesign.github.io/blog/post4-2/</link>
+      <pubDate>Thu, 28 Oct 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post4-2/</guid>
+      <description>4-2.添加評論功能 安裝 Hugo comments 支援靜態的 Github Page
+1.Hugo 網站搜尋「comments」 (https://gohugo.io/content-management/comments/#readout)</description>
+    </item>
+    
+    <item>
+      <title>第四章 展示你的個人網站 單元一 發佈個人網站至 Github Pages</title>
+      <link>https://supermonkeydesign.github.io/blog/post4-1/</link>
+      <pubDate>Wed, 27 Oct 2021 16:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post4-1/</guid>
+      <description>4-1. 發佈個人網站至 Github Pages 1.Repository 創建： Github Web 點選右上「+」號 &amp;gt; 選擇「New repository」 Github</description>
+    </item>
+    
+    <item>
+      <title>第三章 嘗試寫一篇文章吧！單元三 使用 Hugo shortcodes</title>
+      <link>https://supermonkeydesign.github.io/blog/post3-3/</link>
+      <pubDate>Wed, 27 Oct 2021 15:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post3-3/</guid>
+      <description>3-3. Hugo shortcodes 安裝設定 1.Hugo shortcodes：hugo 網站搜尋 shortcodes
+2.shortcodes 介紹：搜尋選擇 shortcodes，進入介紹敘述，因 markdoum 於 hugo 上運行便利，但有時支援不足  右邊 Create Custom Shortcodes 可選取插入支援項目 https://gohugo.</description>
+    </item>
+    
+    <item>
+      <title>第三章 嘗試寫一篇文章吧！ 單元二 分類文章，為文章加上標籤</title>
+      <link>https://supermonkeydesign.github.io/blog/post3-2/</link>
+      <pubDate>Wed, 20 Oct 2021 17:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post3-2/</guid>
+      <description>3-2. Markdowm 文章分類及標籤設定 1.Hugo 程式碼設定：  第 1-24 行程式且務必置頂，網站才能顯示該文章 第 3 行時區：改+8台灣時區，複製 post-13 程式碼來修改  2 文章狀態：第 4 行程式「draft」  false(完稿) 預設 true(草稿) Hugo 語言不會顯示草稿文章  3.</description>
+    </item>
+    
+    <item>
+      <title>第三章 嘗試寫一篇文章吧！ 單元一 Markdowm 是什麼？Markdowm 語法介紹</title>
+      <link>https://supermonkeydesign.github.io/blog/post3-1/</link>
+      <pubDate>Wed, 20 Oct 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post3-1/</guid>
+      <description>3-1. Markdowm 語法介紹及操作 1.內文：換行空一行，再接下行 例：
+我是超級猴子，超級猴子愛學習
+超級猴子愛學習，我是超級猴子
+2.標題：文字前輸入「 # 」+「空格」+「文字」 支援大小：# 一級標題 ～ ###### 六級標題</description>
+    </item>
+    
+    <item>
+      <title>第二章 認識 Hugo 單元四 VS Code 安裝 個人網站參數設定 </title>
+      <link>https://supermonkeydesign.github.io/blog/post2-4/</link>
+      <pubDate>Tue, 19 Oct 2021 15:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post2-4/</guid>
+      <description>2-4.VS Code 安裝 個人網站參數設定 1.安裝 VS Code :   網路搜尋 VS Code</description>
+    </item>
+    
+    <item>
+      <title>第二章 認識 Hugo 單元二 在MAC上使用Hugo運行個人網站</title>
+      <link>https://supermonkeydesign.github.io/blog/post2-2/</link>
+      <pubDate>Tue, 19 Oct 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post2-2/</guid>
+      <description>2-2. 在 MAC 上使用 Hugo 運行個人網站  安裝教學：MAC 單元 2-2 / PC 單元 2-3</description>
+    </item>
+    
+    <item>
+      <title>第二章 認識 Hugo 單元一 Hugo 是什麼？挑選一個你喜歡的主題吧！</title>
+      <link>https://supermonkeydesign.github.io/blog/post2-1/</link>
+      <pubDate>Tue, 19 Oct 2021 10:00:00 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post2-1/</guid>
+      <description>2-1. Hugo 是什麼？挑選一個你喜歡的主題吧！  快速產生個人網站程式碼的工具(https://gohugo.io/)
+ 1.選擇 Themes，頁面  右邊為分類選項 2.</description>
+    </item>
+    
+    <item>
+      <title>Markdown 文章格式範例</title>
+      <link>https://supermonkeydesign.github.io/blog/post-13/</link>
+      <pubDate>Thu, 16 Apr 2020 10:07:47 +0800</pubDate>
+      
+      <guid>https://supermonkeydesign.github.io/blog/post-13/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+  </channel>
+</rss>

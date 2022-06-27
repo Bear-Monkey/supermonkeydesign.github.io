@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-tw"><head>
   <meta charset="utf-8">
-  <title>Welcome~超級猴子設計實驗室</title>
+  <title>Sindy&#39;s Blog</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="單元二 創造靈活度!增添新的元件吧！">
-  <meta name="author" content="Super Monkey">
+  <meta name="author" content="Sindy&#39;s Blog">
   <meta name="generator" content="Hugo 0.88.1" />
 
   <!-- plugins -->
@@ -59,7 +59,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
       <a class="navbar-brand mobile-view" href="https://supermonkeydesign.github.io"><img class="img-fluid"
-          src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Welcome~超級猴子設計實驗室"></a>
+          src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Sindy&#39;s Blog"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
@@ -69,22 +69,18 @@
           <ul class="navbar-nav mr-auto">
             
             <li class="nav-item">
-              <a class="nav-link" href="https://www.instagram.com/sm2021design/"><i class="ti-instagram"></i></a>
+              <a class="nav-link" href="https://sxs-design.web.app/"><i class="ti-link"></i></a>
             </li>
             
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/supermonkeydesign"><i class="ti-github"></i></a>
             </li>
             
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.behance.net/SxS-sindy528"><i class="bi-behance"></i></a>
-            </li>
-            
           </ul>
         </div>
 
         <a class="navbar-brand mx-auto desktop-view" href="https://supermonkeydesign.github.io"><img class="img-fluid"
-            src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Welcome~超級猴子設計實驗室"></a>
+            src="https://supermonkeydesign.github.io/images/logo.jpg" alt="Sindy&#39;s Blog"></a>
 
         <ul class="navbar-nav">
           
@@ -121,12 +117,12 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         
-        <a href="/categories/notes"
-          class="text-primary">Notes</a>
+        <a href="/categories/%e7%ad%86%e8%a8%98"
+          class="text-primary">筆記</a>
         
         <h2>第五章 進階篇：客製化現有主題</h2>
         <div class="mb-3 post-meta">
-          <span>By Super Monkey</span>
+          <span>By Sindy&#39;s Blog</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
           <span>02 November 2021</span>
@@ -136,26 +132,28 @@
         <img src="https://supermonkeydesign.github.io/images/post/post-3.jpg" class="img-fluid w-100 mb-4" alt="第五章 進階篇：客製化現有主題">
         
         <div class="content mb-5">
-          <h3 id="5-2--創造靈活度增添新的元件吧">5-2.  創造靈活度!增添新的元件吧！</h3>
+          <h3 id="5-2-創造靈活度增添新的元件吧">5-2. 創造靈活度!增添新的元件吧！</h3>
 <ol>
 <li>個人經歷時間軸</li>
 </ol>
 <ul>
 <li>開啟 themes &gt; layouts &gt; about &gt; list.html</li>
-<li>第3-7行 讀取放在<code>content資料夾</code> 底下 <code>about 資料夾</code>內的<code>_index.md</code></li>
-<li>第8行 是呈現<code>_index.md</code> 第7行所設定的圖片</li>
-<li>第12行 是呈現寫的內容</li>
-<li>第19-37行 相簿設定，沒使用所以刪除這區塊</li>
+<li>第 3-7 行 讀取放在<code>content資料夾</code> 底下 <code>about 資料夾</code>內的<code>_index.md</code></li>
+<li>第 8 行 是呈現<code>_index.md</code> 第 7 行所設定的圖片</li>
+<li>第 12 行 是呈現寫的內容</li>
+<li>第 19-37 行 相簿設定，沒使用所以刪除這區塊</li>
 </ul>
 <ol start="2">
-<li>增加 Experience 區塊
-＊ 複製第10行程式碼，貼到第13行下並將改成 <code>Experience</code></li>
-</ol>
+<li>
+<p>增加 Experience 區塊
+＊ 複製第 10 行程式碼，貼到第 13 行下並將改成 <code>Experience</code></p>
 <blockquote>
 <p>&lt; h4 class=&ldquo;widget-title&rdquo;&gt;<code>{{ .Title | markdownify }}</code><!-- raw HTML omitted --></p>
 </blockquote>
-<ol start="3">
-<li>網頁搜尋 timeline.html 範例</li>
+</li>
+<li>
+<p>網頁搜尋 timeline.html 範例</p>
+</li>
 </ol>
 <ul>
 <li><a href="https://freefrontend.com/css-timelines/">77 CSS Timelines - Free Frontend</a></li>
@@ -163,10 +161,10 @@
 </ul>
 <ol start="4">
 <li>
-<p>VS Code 開啟 css3 Timeline &gt; index.html，copy 第20-56行 個人介紹頁Experience 下</p>
+<p>VS Code 開啟 css3 Timeline &gt; index.html，copy 第 20-56 行 個人介紹頁 Experience 下</p>
 </li>
 <li>
-<p>開啟 themes &gt; layouts &gt; about &gt; list.html &gt; 第14行 Experience 下貼上</p>
+<p>開啟 themes &gt; layouts &gt; about &gt; list.html &gt; 第 14 行 Experience 下貼上</p>
 </li>
 <li>
 <p>開啟 css3 Timeline &gt; css &gt; style.css，複製全部程式碼</p>
@@ -178,11 +176,12 @@
 <h3 id="import-timelinescss">import [timeline.scss]</h3>
 <ol>
 <li>開啟 assets &gt; scss 資料夾 &gt; style.scss</li>
-<li>下面新增</li>
-</ol>
+<li>下面新增
 <blockquote>
 <p>@import &lsquo;timeline.scss&rsquo;;</p>
 </blockquote>
+</li>
+</ol>
 <h5 id="1時間軸修改">1.時間軸修改</h5>
 <ol>
 <li>開啟 themes &gt; layouts &gt; about &gt; list.html</li>
@@ -193,29 +192,27 @@
 <p>開啟 themes &gt; asstes &gt; scss &gt; about &gt; timeline.scss</p>
 </li>
 <li>
-<p>修改 第296行 width寬度</p>
-</li>
-</ol>
+<p>修改 第 296 行 width 寬度</p>
 <blockquote>
 <p>@ media(min-width: 610px)</p>
 </blockquote>
+</li>
+</ol>
 <h5 id="3-修改個人資訊">3. 修改個人資訊</h5>
 <ol>
 <li>開啟 themes &gt; layouts &gt; about &gt; list.html</li>
 </ol>
 <ul>
-<li>第21行 刪除或註解</li>
-</ul>
+<li>第 21 行 刪除或註解
 <blockquote>
 <p>&lt; span class=&ldquo;flag&rdquo;&gt;Lorem ipsum.&lt; /span&gt;</p>
 </blockquote>
-<ul>
-<li>第24行 內文修改</li>
-</ul>
+</li>
+<li>第 24 行 內文修改
 <blockquote>
 <p>&lt; div class=&ldquo;desc&rdquo;&gt;Lorem ipsum&hellip;dolore.</p>
 </blockquote>
-<ul>
+</li>
 <li>字體修改：放大加粗 到文字標籤加上&lt; h5 &gt;</li>
 </ul>
 <ol start="2">
@@ -223,31 +220,33 @@
 </ol>
 <ul>
 <li>開啟 themes &gt; assets &gt; scss &gt; timeline.html</li>
-<li>第189行desc 刪除第194-196 三行</li>
+<li>第 189 行 desc 刪除第 194-196 三行</li>
 </ul>
 <ol start="3">
 <li>主題顏色修改</li>
 </ol>
 <ul>
-<li>開啟 themes &gt; assets &gt; scss &gt; variables.scss</li>
-</ul>
+<li>
+<p>開啟 themes &gt; assets &gt; scss &gt; variables.scss</p>
 <blockquote>
 <p>此檔案稱為「變量」為 scss 額外提供之功能</p>
 </blockquote>
-<ul>
-<li>方法一：copy 顏色值貼到 timeline.css</li>
-</ul>
+</li>
+<li>
+<p>方法一：copy 顏色值貼到 timeline.css</p>
 <blockquote>
 <p>$primary-color: #00AAA1;</p>
 </blockquote>
-<ul>
-<li>建議使用方法二：預先定義變量 copy _variables.scss 檔案內的 <strong>$primary-color</strong> 貼到 timeline.css 第183行 <strong>.time 下 background 後</strong> 之後欲一次性修改主題顏色到 _variables.scss 裡面的這個 primary-color 的值即可</li>
-</ul>
+</li>
+<li>
+<p>建議使用方法二：預先定義變量 copy _variables.scss 檔案內的 <strong>$primary-color</strong> 貼到 timeline.css 第 183 行 <strong>.time 下 background 後</strong> 之後欲一次性修改主題顏色到 _variables.scss 裡面的這個 primary-color 的值即可</p>
 <blockquote>
 <p>background:$primary-color;</p>
 </blockquote>
-<ul>
-<li>將所有原藍色配色改成「變量」 <strong>$primary-color</strong> 主題網站顏色同步</li>
+</li>
+<li>
+<p>將所有原藍色配色改成「變量」 <strong>$primary-color</strong> 主題網站顏色同步</p>
+</li>
 </ul>
 
         </div>
@@ -266,7 +265,7 @@
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "super-monkey" + '.disqus.com/embed.js';
+        s.src = '//' + "Super Monkey" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
